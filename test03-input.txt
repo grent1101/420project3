@@ -1,0 +1,51 @@
+comment:Tests add-point, clear, size, build-emst, and list-emst
+initialize:0:100:0:100
+add-point:SEA:Seattle:51:52
+add-point:IAD:Dulles:32:41
+add-point:DCA:Washington:65:68
+add-point:DFW:Dallas-Fort Worth:30:84
+add-point:ORD:Chicago:18:58
+add-point:SFO:San Francisco:12:88
+size
+build-emst:DCA
+list-emst
+add-point:ATL:Atlanta:95:51
+add-point:BWI:Baltimore:80:85
+add-point:JFK:New York:92:29
+add-point:DEN:Denver:74:12
+build-emst:ATL
+list-emst
+add-point:CLT:Charlotte:69:44
+add-point:LAS:Las Vegas:17:38
+add-point:PHX:Phoenix:72:95
+add-point:MCO:Orlando:52:23
+add-point:IAH:Houston:73:71
+build-emst:SEA
+list-emst
+build-emst:IAH
+list-emst
+clear
+add-point:SEA:Seattle:51:52
+add-point:DCA:Washington:65:68
+add-point:IAD:Dulles:32:41
+add-point:DFW:Dallas-Fort Worth:30:84
+add-point:ORD:Chicago:18:58
+comment:Adding a duplicate point (not detected)
+add-point:DUP:Duplicate City:65:68
+add-point:CLT:Charlotte:69:44
+add-point:LAS:Las Vegas:17:38
+add-point:PHX:Phoenix:72:95
+comment:Duplicate point will be detected here
+build-emst:SEA
+comment:The EMST should be empty due to the error
+list-emst
+clear
+add-point:DCA:Washington:65:68
+build-emst:DCA
+list-emst
+add-point:IAD:Dulles:32:41
+build-emst:IAD
+list-emst
+add-point:DFW:Dallas-Fort Worth:30:84
+build-emst:DFW
+list-emst

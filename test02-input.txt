@@ -1,0 +1,28 @@
+comment:Tests all operations
+initialize:0:100:0:100
+add-point:SEA:Seattle:51:53
+add-point:IAD:Dulles:32:41
+add-point:DCA:Washington:65:68
+add-point:DFW:Dallas-Fort Worth:30:84
+add-point:ORD:Chicago:19:58
+add-point:SFO:San Francisco:12:88
+add-point:ATL:Atlanta:5:51
+size
+build-emst:SFO
+list-emst
+build-emst:DCA
+size
+list-emst
+clear
+size
+list-emst
+add-point:SEA:Seattle:51:53
+size
+build-emst:SEA
+list-emst
+add-point:IAD:Dulles:32:41
+size
+build-emst:IAD
+list-emst
+build-emst:SEA
+list-emst

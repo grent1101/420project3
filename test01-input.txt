@@ -1,0 +1,11 @@
+comment:Tests add-point and build-emst
+initialize:0:100:0:100
+add-point:SEA:Seattle:51:53
+add-point:IAD:Dulles:32:41
+add-point:DCA:Washington:65:68
+add-point:DFW:Dallas-Fort Worth:30:84
+add-point:ORD:Chicago:19:58
+add-point:SFO:San Francisco:12:88
+add-point:ATL:Atlanta:5:51
+comment:Builds an EMST starting from SFO
+build-emst:SFO

@@ -1,0 +1,128 @@
+[This uses a non-square bounding box and involves around 30 points.]
+initialize: bounding-box = [(0.0,0.0),(800.0,500.0)]
+add-point(ACY): successful {ATLANTIC CITY, (559.0,312.0)}
+add-point(ALB): successful {ALBANY, (563.0,362.0)}
+add-point(AMA): successful {AMARILLO, (291.0,220.0)}
+add-point(ATL): successful {ATLANTA, (462.0,189.0)}
+add-point(AUG): successful {AUGUSTA, (606.0,412.0)}
+add-point(AUS): successful {AUSTIN, (327.0,126.0)}
+add-point(BFM): successful {MOBILE, (412.0,128.0)}
+add-point(BGR): successful {BANGOR, (614.0,409.0)}
+add-point(BHM): successful {BIRMINGHAM, (438.0,193.0)}
+add-point(BLI): successful {BELLINGHAM, (82.0,492.0)}
+add-point(BNA): successful {NASHVILLE, (439.0,257.0)}
+add-point(BOI): successful {BOISE, (142.0,396.0)}
+add-point(BOS): successful {BOSTON, (583.0,374.0)}
+add-point(BTR): successful {BATON ROUGE, (391.0,119.0)}
+add-point(BUF): successful {BUFFALO, (518.0,371.0)}
+add-point(BUR): successful {BURBANK, (122.0,217.0)}
+add-point(BWI): successful {BALTIMORE, (538.0,301.0)}
+add-point(CBM): successful {COLOMBUS, (421.0,196.0)}
+add-point(CHS): successful {CHARLESTON, (493.0,160.0)}
+add-point(CLE): successful {CLEVELAND, (488.0,343.0)}
+add-point(CLT): successful {CHARLOTTE, (495.0,228.0)}
+add-point(CNW): successful {WACO, (331.0,154.0)}
+add-point(COS): successful {COLORADO SPRINGS, (260.0,297.0)}
+add-point(CVG): successful {CINCINNATI, (456.0,305.0)}
+add-point(DAL): successful {DALLAS, (342.0,164.0)}
+add-point(DAY): successful {DAYTON, (457.0,302.0)}
+add-point(DCA): successful {WASHINGTON, (525.0,296.0)}
+add-point(DEN): successful {DENVER, (256.0,313.0)}
+add-point(DET): successful {DETROIT, (464.0,364.0)}
+add-point(DFW): successful {DALLAS-FORT WORTH, (332.0,168.0)}
+build-emst(ACY): successful
+ new-nn: (ACY->BWI)
+ add: (ACY:(559.0,312.0)--BWI:(538.0,301.0)) new-nn: (ACY->DCA) (BWI->DCA)
+ add: (BWI:(538.0,301.0)--DCA:(525.0,296.0)) new-nn: (ACY->ALB) (BWI->CLE) (DCA->CLE)
+ add: (ACY:(559.0,312.0)--ALB:(563.0,362.0)) new-nn: (ACY->BOS) (ALB->BOS)
+ add: (ALB:(563.0,362.0)--BOS:(583.0,374.0)) new-nn: (ACY->BUF) (ALB->BUF) (BOS->AUG)
+ add: (BOS:(583.0,374.0)--AUG:(606.0,412.0)) new-nn: (AUG->BGR) (BOS->BGR)
+ add: (AUG:(606.0,412.0)--BGR:(614.0,409.0)) new-nn: (AUG->BUF) (BGR->BUF) (BOS->BUF)
+ add: (ALB:(563.0,362.0)--BUF:(518.0,371.0)) new-nn: (ACY->CLE) (ALB->CLE) (AUG->CLE) (BGR->CLE) (BOS->CLE) (BUF->CLE)
+ add: (BUF:(518.0,371.0)--CLE:(488.0,343.0)) new-nn: (ACY->DAY) (ALB->DET) (AUG->DET) (BGR->DET) (BOS->DET) (BUF->DET) (BWI->DAY) (CLE->DET) (DCA->DAY)
+ add: (CLE:(488.0,343.0)--DET:(464.0,364.0)) new-nn: (ALB->CVG) (AUG->CVG) (BGR->CVG) (BOS->CVG) (BUF->CVG) (CLE->CVG) (DET->CVG)
+ add: (CLE:(488.0,343.0)--CVG:(456.0,305.0)) new-nn: (ALB->DAY) (AUG->DAY) (BGR->DAY) (BOS->DAY) (BUF->DAY) (CLE->DAY) (CVG->DAY) (DET->DAY)
+ add: (CVG:(456.0,305.0)--DAY:(457.0,302.0)) new-nn: (ACY->CLT) (ALB->CLT) (AUG->CLT) (BGR->CLT) (BOS->CLT) (BUF->BNA) (BWI->CLT) (CLE->BNA) (CVG->BNA) (DAY->BNA) (DCA->CLT) (DET->BNA)
+ add: (DAY:(457.0,302.0)--BNA:(439.0,257.0)) new-nn: (BNA->CLT) (BUF->CLT) (CLE->CLT) (CVG->CLT) (DAY->CLT) (DET->CLT)
+ add: (BNA:(439.0,257.0)--CLT:(495.0,228.0)) new-nn: (ACY->ATL) (ALB->ATL) (AUG->ATL) (BGR->ATL) (BNA->CBM) (BOS->ATL) (BUF->ATL) (BWI->ATL) (CLE->ATL) (CLT->ATL) (CVG->BHM) (DAY->BHM) (DCA->ATL) (DET->BHM)
+ add: (CLT:(495.0,228.0)--ATL:(462.0,189.0)) new-nn: (ACY->CHS) (ALB->BHM) (ATL->BHM) (AUG->BHM) (BGR->CHS) (BOS->BHM) (BUF->BHM) (BWI->BHM) (CLE->BHM) (CLT->BHM) (DCA->BHM)
+ add: (ATL:(462.0,189.0)--BHM:(438.0,193.0)) new-nn: (ALB->CHS) (ATL->CBM) (AUG->CHS) (BHM->CBM) (BOS->CHS) (BUF->CBM) (BWI->CHS) (CLE->CBM) (CLT->CHS) (CVG->CBM) (DAY->CBM) (DCA->CHS) (DET->CBM)
+ add: (BHM:(438.0,193.0)--CBM:(421.0,196.0)) new-nn: (ATL->CHS) (BHM->CHS) (BNA->CHS) (BUF->CHS) (CBM->BFM) (CLE->CHS) (CVG->CHS) (DAY->CHS) (DET->CHS)
+ add: (ATL:(462.0,189.0)--CHS:(493.0,160.0)) new-nn: (ACY->BFM) (ALB->BFM) (ATL->BFM) (AUG->BFM) (BGR->BFM) (BHM->BFM) (BNA->BFM) (BOS->BFM) (BUF->BFM) (BWI->BFM) (CHS->BFM) (CLE->BFM) (CLT->BFM) (CVG->DAL) (DAY->DAL) (DCA->BFM) (DET->DEN)
+ add: (CBM:(421.0,196.0)--BFM:(412.0,128.0)) new-nn: (ACY->BTR) (ALB->DAL) (ATL->BTR) (AUG->DAL) (BFM->BTR) (BGR->BTR) (BHM->BTR) (BNA->DAL) (BOS->BTR) (BUF->DEN) (BWI->BTR) (CBM->BTR) (CHS->BTR) (CLE->DAL) (CLT->BTR) (DCA->BTR)
+ add: (BFM:(412.0,128.0)--BTR:(391.0,119.0)) new-nn: (ACY->DAL) (ATL->DAL) (BFM->DAL) (BGR->DAL) (BHM->DAL) (BOS->DAL) (BTR->AUS) (BWI->DAL) (CBM->DAL) (CHS->DAL) (CLT->DAL) (DCA->DAL)
+ add: (BTR:(391.0,119.0)--AUS:(327.0,126.0)) new-nn: (AUS->CNW) (BTR->DAL)
+ add: (AUS:(327.0,126.0)--CNW:(331.0,154.0)) new-nn: (AUS->DAL) (CNW->DFW)
+ add: (CNW:(331.0,154.0)--DFW:(332.0,168.0)) new-nn: (CNW->DAL) (DFW->DAL)
+ add: (DFW:(332.0,168.0)--DAL:(342.0,164.0)) new-nn: (ACY->AMA) (ALB->AMA) (ATL->AMA) (AUG->DEN) (AUS->AMA) (BFM->AMA) (BGR->DEN) (BHM->AMA) (BNA->AMA) (BOS->AMA) (BTR->AMA) (BWI->AMA) (CBM->AMA) (CHS->AMA) (CLE->AMA) (CLT->AMA) (CNW->AMA) (CVG->AMA) (DAL->AMA) (DAY->AMA) (DCA->AMA) (DFW->AMA)
+ add: (DFW:(332.0,168.0)--AMA:(291.0,220.0)) new-nn: (ACY->COS) (ALB->COS) (AMA->COS) (ATL->COS) (AUS->COS) (BFM->COS) (BHM->COS) (BNA->COS) (BOS->COS) (BTR->COS) (BWI->COS) (CBM->COS) (CHS->COS) (CLE->COS) (CLT->COS) (CNW->COS) (CVG->COS) (DAL->COS) (DAY->COS) (DCA->COS) (DFW->COS)
+ add: (AMA:(291.0,220.0)--COS:(260.0,297.0)) new-nn: (ACY->DEN) (ALB->DEN) (AMA->DEN) (ATL->DEN) (AUS->DEN) (BFM->DEN) (BHM->DEN) (BNA->DEN) (BOS->DEN) (BTR->DEN) (BWI->DEN) (CBM->DEN) (CHS->DEN) (CLE->DEN) (CLT->DEN) (CNW->DEN) (COS->DEN) (CVG->DEN) (DAL->DEN) (DAY->DEN) (DCA->DEN) (DFW->DEN)
+ add: (COS:(260.0,297.0)--DEN:(256.0,313.0)) new-nn: (ACY->BOI) (ALB->BOI) (AMA->BUR) (ATL->BUR) (AUG->BOI) (AUS->BUR) (BFM->BUR) (BGR->BOI) (BHM->BUR) (BNA->BUR) (BOS->BOI) (BTR->BUR) (BUF->BOI) (BWI->BOI) (CBM->BUR) (CHS->BUR) (CLE->BOI) (CLT->BUR) (CNW->BUR) (COS->BOI) (CVG->BOI) (DAL->BUR) (DAY->BOI) (DCA->BOI) (DEN->BOI) (DET->BOI) (DFW->BUR)
+ add: (DEN:(256.0,313.0)--BOI:(142.0,396.0)) new-nn: (ACY->BUR) (ALB->BUR) (AUG->BUR) (BGR->BUR) (BOI->BLI) (BOS->BUR) (BUF->BUR) (BWI->BUR) (CLE->BUR) (COS->BUR) (CVG->BUR) (DAY->BUR) (DCA->BUR) (DEN->BUR) (DET->BUR)
+ add: (BOI:(142.0,396.0)--BLI:(82.0,492.0)) new-nn: (BLI->BUR) (BOI->BUR)
+ add: (COS:(260.0,297.0)--BUR:(122.0,217.0)) new-nn:
+list-emst: (ACY,BWI) (BWI,DCA) (ACY,ALB) (ALB,BOS) (BOS,AUG) (AUG,BGR) (ALB,BUF) (BUF,CLE) (CLE,DET) (CLE,CVG) (CVG,DAY) (DAY,BNA) (BNA,CLT) (CLT,ATL) (ATL,BHM) (BHM,CBM) (ATL,CHS) (CBM,BFM) (BFM,BTR) (BTR,AUS) (AUS,CNW) (CNW,DFW) (DFW,DAL) (DFW,AMA) (AMA,COS) (COS,DEN) (DEN,BOI) (BOI,BLI) (COS,BUR)
+build-emst(BOS): successful
+ new-nn: (BOS->ALB)
+ add: (BOS:(583.0,374.0)--ALB:(563.0,362.0)) new-nn: (ALB->BUF) (BOS->AUG)
+ add: (BOS:(583.0,374.0)--AUG:(606.0,412.0)) new-nn: (AUG->BGR) (BOS->BGR)
+ add: (AUG:(606.0,412.0)--BGR:(614.0,409.0)) new-nn: (AUG->BUF) (BGR->BUF) (BOS->BUF)
+ add: (ALB:(563.0,362.0)--BUF:(518.0,371.0)) new-nn: (ALB->ACY) (AUG->ACY) (BGR->ACY) (BOS->ACY) (BUF->CLE)
+ add: (BUF:(518.0,371.0)--CLE:(488.0,343.0)) new-nn: (BUF->DET) (CLE->DET)
+ add: (CLE:(488.0,343.0)--DET:(464.0,364.0)) new-nn: (BUF->ACY) (CLE->CVG) (DET->CVG)
+ add: (CLE:(488.0,343.0)--CVG:(456.0,305.0)) new-nn: (CLE->DAY) (CVG->DAY) (DET->DAY)
+ add: (CVG:(456.0,305.0)--DAY:(457.0,302.0)) new-nn: (CLE->DCA) (CVG->BNA) (DAY->BNA) (DET->DCA)
+ add: (DAY:(457.0,302.0)--BNA:(439.0,257.0)) new-nn: (BNA->CLT) (CVG->DCA) (DAY->DCA)
+ add: (ALB:(563.0,362.0)--ACY:(559.0,312.0)) new-nn: (ACY->BWI) (ALB->BWI) (AUG->BWI) (BGR->BWI) (BOS->BWI) (BUF->BWI)
+ add: (ACY:(559.0,312.0)--BWI:(538.0,301.0)) new-nn: (ACY->DCA) (ALB->DCA) (AUG->DCA) (BGR->DCA) (BOS->DCA) (BUF->DCA) (BWI->DCA)
+ add: (BWI:(538.0,301.0)--DCA:(525.0,296.0)) new-nn: (ACY->CLT) (ALB->CLT) (AUG->CLT) (BGR->CLT) (BOS->CLT) (BUF->CLT) (BWI->CLT) (CLE->CLT) (CVG->CLT) (DAY->CLT) (DCA->CLT) (DET->CLT)
+ add: (BNA:(439.0,257.0)--CLT:(495.0,228.0)) new-nn: (ACY->ATL) (ALB->ATL) (AUG->ATL) (BGR->ATL) (BNA->CBM) (BOS->ATL) (BUF->ATL) (BWI->ATL) (CLE->ATL) (CLT->ATL) (CVG->BHM) (DAY->BHM) (DCA->ATL) (DET->BHM)
+ add: (CLT:(495.0,228.0)--ATL:(462.0,189.0)) new-nn: (ACY->CHS) (ALB->BHM) (ATL->BHM) (AUG->BHM) (BGR->CHS) (BOS->BHM) (BUF->BHM) (BWI->BHM) (CLE->BHM) (CLT->BHM) (DCA->BHM)
+ add: (ATL:(462.0,189.0)--BHM:(438.0,193.0)) new-nn: (ALB->CHS) (ATL->CBM) (AUG->CHS) (BHM->CBM) (BOS->CHS) (BUF->CBM) (BWI->CHS) (CLE->CBM) (CLT->CHS) (CVG->CBM) (DAY->CBM) (DCA->CHS) (DET->CBM)
+ add: (BHM:(438.0,193.0)--CBM:(421.0,196.0)) new-nn: (ATL->CHS) (BHM->CHS) (BNA->CHS) (BUF->CHS) (CBM->BFM) (CLE->CHS) (CVG->CHS) (DAY->CHS) (DET->CHS)
+ add: (ATL:(462.0,189.0)--CHS:(493.0,160.0)) new-nn: (ACY->BFM) (ALB->BFM) (ATL->BFM) (AUG->BFM) (BGR->BFM) (BHM->BFM) (BNA->BFM) (BOS->BFM) (BUF->BFM) (BWI->BFM) (CHS->BFM) (CLE->BFM) (CLT->BFM) (CVG->DAL) (DAY->DAL) (DCA->BFM) (DET->DEN)
+ add: (CBM:(421.0,196.0)--BFM:(412.0,128.0)) new-nn: (ACY->BTR) (ALB->DAL) (ATL->BTR) (AUG->DAL) (BFM->BTR) (BGR->BTR) (BHM->BTR) (BNA->DAL) (BOS->BTR) (BUF->DEN) (BWI->BTR) (CBM->BTR) (CHS->BTR) (CLE->DAL) (CLT->BTR) (DCA->BTR)
+ add: (BFM:(412.0,128.0)--BTR:(391.0,119.0)) new-nn: (ACY->DAL) (ATL->DAL) (BFM->DAL) (BGR->DAL) (BHM->DAL) (BOS->DAL) (BTR->AUS) (BWI->DAL) (CBM->DAL) (CHS->DAL) (CLT->DAL) (DCA->DAL)
+ add: (BTR:(391.0,119.0)--AUS:(327.0,126.0)) new-nn: (AUS->CNW) (BTR->DAL)
+ add: (AUS:(327.0,126.0)--CNW:(331.0,154.0)) new-nn: (AUS->DAL) (CNW->DFW)
+ add: (CNW:(331.0,154.0)--DFW:(332.0,168.0)) new-nn: (CNW->DAL) (DFW->DAL)
+ add: (DFW:(332.0,168.0)--DAL:(342.0,164.0)) new-nn: (ACY->AMA) (ALB->AMA) (ATL->AMA) (AUG->DEN) (AUS->AMA) (BFM->AMA) (BGR->DEN) (BHM->AMA) (BNA->AMA) (BOS->AMA) (BTR->AMA) (BWI->AMA) (CBM->AMA) (CHS->AMA) (CLE->AMA) (CLT->AMA) (CNW->AMA) (CVG->AMA) (DAL->AMA) (DAY->AMA) (DCA->AMA) (DFW->AMA)
+ add: (DFW:(332.0,168.0)--AMA:(291.0,220.0)) new-nn: (ACY->COS) (ALB->COS) (AMA->COS) (ATL->COS) (AUS->COS) (BFM->COS) (BHM->COS) (BNA->COS) (BOS->COS) (BTR->COS) (BWI->COS) (CBM->COS) (CHS->COS) (CLE->COS) (CLT->COS) (CNW->COS) (CVG->COS) (DAL->COS) (DAY->COS) (DCA->COS) (DFW->COS)
+ add: (AMA:(291.0,220.0)--COS:(260.0,297.0)) new-nn: (ACY->DEN) (ALB->DEN) (AMA->DEN) (ATL->DEN) (AUS->DEN) (BFM->DEN) (BHM->DEN) (BNA->DEN) (BOS->DEN) (BTR->DEN) (BWI->DEN) (CBM->DEN) (CHS->DEN) (CLE->DEN) (CLT->DEN) (CNW->DEN) (COS->DEN) (CVG->DEN) (DAL->DEN) (DAY->DEN) (DCA->DEN) (DFW->DEN)
+ add: (COS:(260.0,297.0)--DEN:(256.0,313.0)) new-nn: (ACY->BOI) (ALB->BOI) (AMA->BUR) (ATL->BUR) (AUG->BOI) (AUS->BUR) (BFM->BUR) (BGR->BOI) (BHM->BUR) (BNA->BUR) (BOS->BOI) (BTR->BUR) (BUF->BOI) (BWI->BOI) (CBM->BUR) (CHS->BUR) (CLE->BOI) (CLT->BUR) (CNW->BUR) (COS->BOI) (CVG->BOI) (DAL->BUR) (DAY->BOI) (DCA->BOI) (DEN->BOI) (DET->BOI) (DFW->BUR)
+ add: (DEN:(256.0,313.0)--BOI:(142.0,396.0)) new-nn: (ACY->BUR) (ALB->BUR) (AUG->BUR) (BGR->BUR) (BOI->BLI) (BOS->BUR) (BUF->BUR) (BWI->BUR) (CLE->BUR) (COS->BUR) (CVG->BUR) (DAY->BUR) (DCA->BUR) (DEN->BUR) (DET->BUR)
+ add: (BOI:(142.0,396.0)--BLI:(82.0,492.0)) new-nn: (BLI->BUR) (BOI->BUR)
+ add: (COS:(260.0,297.0)--BUR:(122.0,217.0)) new-nn:
+list-emst: (BOS,ALB) (BOS,AUG) (AUG,BGR) (ALB,BUF) (BUF,CLE) (CLE,DET) (CLE,CVG) (CVG,DAY) (DAY,BNA) (ALB,ACY) (ACY,BWI) (BWI,DCA) (BNA,CLT) (CLT,ATL) (ATL,BHM) (BHM,CBM) (ATL,CHS) (CBM,BFM) (BFM,BTR) (BTR,AUS) (AUS,CNW) (CNW,DFW) (DFW,DAL) (DFW,AMA) (AMA,COS) (COS,DEN) (DEN,BOI) (BOI,BLI) (COS,BUR)
+build-emst(DFW): successful
+ new-nn: (DFW->DAL)
+ add: (DFW:(332.0,168.0)--DAL:(342.0,164.0)) new-nn: (DAL->CNW) (DFW->CNW)
+ add: (DFW:(332.0,168.0)--CNW:(331.0,154.0)) new-nn: (CNW->AUS) (DAL->AUS) (DFW->AUS)
+ add: (CNW:(331.0,154.0)--AUS:(327.0,126.0)) new-nn: (AUS->BTR) (CNW->BTR) (DAL->BTR) (DFW->AMA)
+ add: (AUS:(327.0,126.0)--BTR:(391.0,119.0)) new-nn: (AUS->BFM) (BTR->BFM) (CNW->AMA) (DAL->AMA)
+ add: (BTR:(391.0,119.0)--BFM:(412.0,128.0)) new-nn: (AUS->AMA) (BFM->CBM) (BTR->CBM)
+ add: (DFW:(332.0,168.0)--AMA:(291.0,220.0)) new-nn: (AMA->COS) (AUS->CBM) (CNW->CBM) (DAL->CBM) (DFW->CBM)
+ add: (BFM:(412.0,128.0)--CBM:(421.0,196.0)) new-nn: (AUS->BHM) (BFM->BHM) (BTR->BHM) (CBM->BHM) (CNW->BHM) (DAL->BHM) (DFW->BHM)
+ add: (CBM:(421.0,196.0)--BHM:(438.0,193.0)) new-nn: (AUS->ATL) (BFM->ATL) (BHM->ATL) (BTR->ATL) (CBM->ATL) (CNW->ATL) (DAL->ATL) (DFW->ATL)
+ add: (BHM:(438.0,193.0)--ATL:(462.0,189.0)) new-nn: (ATL->CHS) (AUS->CHS) (BFM->CHS) (BHM->BNA) (BTR->CHS) (CBM->BNA) (CNW->BNA) (DAL->BNA) (DFW->BNA)
+ add: (ATL:(462.0,189.0)--CHS:(493.0,160.0)) new-nn: (ATL->CLT) (AUS->BNA) (BFM->CLT) (BTR->BNA) (CHS->CLT)
+ add: (ATL:(462.0,189.0)--CLT:(495.0,228.0)) new-nn: (ATL->BNA) (BFM->BNA) (CHS->BNA) (CLT->BNA)
+ add: (CLT:(495.0,228.0)--BNA:(439.0,257.0)) new-nn: (ATL->DAY) (AUS->COS) (BFM->DAY) (BHM->DAY) (BNA->DAY) (BTR->DAY) (CBM->DAY) (CHS->DCA) (CLT->DCA) (CNW->COS) (DAL->COS) (DFW->COS)
+ add: (BNA:(439.0,257.0)--DAY:(457.0,302.0)) new-nn: (ATL->CVG) (BFM->CVG) (BHM->CVG) (BNA->CVG) (BTR->CVG) (CBM->CVG) (DAY->CVG)
+ add: (DAY:(457.0,302.0)--CVG:(456.0,305.0)) new-nn: (ATL->DCA) (BFM->DCA) (BHM->DCA) (BNA->DCA) (BTR->COS) (CBM->DCA) (CVG->CLE) (DAY->CLE)
+ add: (CVG:(456.0,305.0)--CLE:(488.0,343.0)) new-nn: (CLE->DET) (CVG->DET) (DAY->DET)
+ add: (CLE:(488.0,343.0)--DET:(464.0,364.0)) new-nn: (CLE->BUF) (CVG->DCA) (DAY->DCA) (DET->BUF)
+ add: (CLE:(488.0,343.0)--BUF:(518.0,371.0)) new-nn: (BUF->ALB) (CLE->DCA) (DET->DCA)
+ add: (BUF:(518.0,371.0)--ALB:(563.0,362.0)) new-nn: (ALB->BOS) (BUF->BOS)
+ add: (ALB:(563.0,362.0)--BOS:(583.0,374.0)) new-nn: (ALB->ACY) (BOS->AUG) (BUF->ACY)
+ add: (BOS:(583.0,374.0)--AUG:(606.0,412.0)) new-nn: (AUG->BGR) (BOS->BGR)
+ add: (AUG:(606.0,412.0)--BGR:(614.0,409.0)) new-nn: (AUG->ACY) (BGR->ACY) (BOS->ACY)
+ add: (ALB:(563.0,362.0)--ACY:(559.0,312.0)) new-nn: (ACY->BWI) (ALB->BWI) (AUG->BWI) (BGR->BWI) (BOS->BWI) (BUF->BWI)
+ add: (ACY:(559.0,312.0)--BWI:(538.0,301.0)) new-nn: (ACY->DCA) (ALB->DCA) (AUG->DCA) (BGR->DCA) (BOS->DCA) (BUF->DCA) (BWI->DCA)
+ add: (BWI:(538.0,301.0)--DCA:(525.0,296.0)) new-nn: (ACY->COS) (ALB->COS) (ATL->COS) (AUG->DEN) (BFM->COS) (BGR->DEN) (BHM->COS) (BNA->COS) (BOS->COS) (BUF->DEN) (BWI->COS) (CBM->COS) (CHS->COS) (CLE->COS) (CLT->COS) (CVG->COS) (DAY->COS) (DCA->COS) (DET->DEN)
+ add: (AMA:(291.0,220.0)--COS:(260.0,297.0)) new-nn: (ACY->DEN) (ALB->DEN) (AMA->DEN) (ATL->DEN) (AUS->DEN) (BFM->DEN) (BHM->DEN) (BNA->DEN) (BOS->DEN) (BTR->DEN) (BWI->DEN) (CBM->DEN) (CHS->DEN) (CLE->DEN) (CLT->DEN) (CNW->DEN) (COS->DEN) (CVG->DEN) (DAL->DEN) (DAY->DEN) (DCA->DEN) (DFW->DEN)
+ add: (COS:(260.0,297.0)--DEN:(256.0,313.0)) new-nn: (ACY->BOI) (ALB->BOI) (AMA->BUR) (ATL->BUR) (AUG->BOI) (AUS->BUR) (BFM->BUR) (BGR->BOI) (BHM->BUR) (BNA->BUR) (BOS->BOI) (BTR->BUR) (BUF->BOI) (BWI->BOI) (CBM->BUR) (CHS->BUR) (CLE->BOI) (CLT->BUR) (CNW->BUR) (COS->BOI) (CVG->BOI) (DAL->BUR) (DAY->BOI) (DCA->BOI) (DEN->BOI) (DET->BOI) (DFW->BUR)
+ add: (DEN:(256.0,313.0)--BOI:(142.0,396.0)) new-nn: (ACY->BUR) (ALB->BUR) (AUG->BUR) (BGR->BUR) (BOI->BLI) (BOS->BUR) (BUF->BUR) (BWI->BUR) (CLE->BUR) (COS->BUR) (CVG->BUR) (DAY->BUR) (DCA->BUR) (DEN->BUR) (DET->BUR)
+ add: (BOI:(142.0,396.0)--BLI:(82.0,492.0)) new-nn: (BLI->BUR) (BOI->BUR)
+ add: (COS:(260.0,297.0)--BUR:(122.0,217.0)) new-nn:
+list-emst: (DFW,DAL) (DFW,CNW) (CNW,AUS) (AUS,BTR) (BTR,BFM) (DFW,AMA) (BFM,CBM) (CBM,BHM) (BHM,ATL) (ATL,CHS) (ATL,CLT) (CLT,BNA) (BNA,DAY) (DAY,CVG) (CVG,CLE) (CLE,DET) (CLE,BUF) (BUF,ALB) (ALB,BOS) (BOS,AUG) (AUG,BGR) (ALB,ACY) (ACY,BWI) (BWI,DCA) (AMA,COS) (COS,DEN) (DEN,BOI) (BOI,BLI) (COS,BUR)

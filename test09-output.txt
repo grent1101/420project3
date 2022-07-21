@@ -1,0 +1,11 @@
+[This involves a non-square bounding box and builds a few trees involving around 200 points.]
+initialize: bounding-box = [(10000.0,10000.0),(99999.0,99999.0)]
+add-point(FTW): successful {FORT WORTH, (41438.0,70571.0)}
+add-point(MNM): successful {MACON, (47608.0,76982.0)}
+add-point(MPV): successful {MONTPELIER, (41051.0,71566.0)}
+add-point(FMY): successful {FORT MYERS, (44476.0,78445.0)}
+build-emst(FTW): successful
+ new-nn: (FTW->MPV)
+ add: (FTW:(41438.0,70571.0)--MPV:(41051.0,71566.0)) new-nn: (FTW->FMY) (MPV->FMY)
+ add: (MPV:(41051.0,71566.0)--FMY:(44476.0,78445.0)) new-nn: (FMY->MNM) (FTW->MNM) (MPV->MNM)
+ add: (FMY:(44476.0,78445.0)--MNM:(47608.0,76982.0)) new-nn:

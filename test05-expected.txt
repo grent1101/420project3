@@ -1,0 +1,408 @@
+[This builds a few trees involving around 100 points.]
+initialize: bounding-box = [(1000.0,1000.0),(5000.0,5000.0)]
+add-point(ACY): successful {ATLANTIC CITY, (2583.0,4072.0)}
+add-point(ALB): successful {ALBANY, (1608.0,3867.0)}
+add-point(AMA): successful {AMARILLO, (2628.0,3954.0)}
+add-point(ATL): successful {ATLANTA, (1438.0,3265.0)}
+add-point(AUG): successful {AUGUSTA, (3762.0,4358.0)}
+add-point(AUS): successful {AUSTIN, (2817.0,1344.0)}
+add-point(BFM): successful {MOBILE, (4248.0,2285.0)}
+add-point(BGR): successful {BANGOR, (3053.0,1328.0)}
+add-point(BHM): successful {BIRMINGHAM, (1690.0,1185.0)}
+add-point(BLI): successful {BELLINGHAM, (2521.0,1884.0)}
+add-point(BNA): successful {NASHVILLE, (4837.0,4663.0)}
+add-point(BOI): successful {BOISE, (3382.0,4118.0)}
+add-point(BOS): successful {BOSTON, (2165.0,1245.0)}
+add-point(BTR): successful {BATON ROUGE, (2214.0,4281.0)}
+add-point(BUF): successful {BUFFALO, (2401.0,1671.0)}
+add-point(BUR): successful {BURBANK, (3491.0,1577.0)}
+add-point(BWI): successful {BALTIMORE, (1957.0,3449.0)}
+add-point(CBM): successful {COLOMBUS, (1762.0,3209.0)}
+add-point(CHS): successful {CHARLESTON, (1343.0,2854.0)}
+add-point(CLE): successful {CLEVELAND, (2493.0,3859.0)}
+add-point(CLT): successful {CHARLOTTE, (2622.0,4041.0)}
+add-point(CNW): successful {WACO, (2671.0,1842.0)}
+add-point(COS): successful {COLORADO SPRINGS, (1386.0,4646.0)}
+add-point(CVG): successful {CINCINNATI, (4646.0,1425.0)}
+add-point(DAL): successful {DALLAS, (2977.0,2983.0)}
+add-point(DAY): successful {DAYTON, (2061.0,4129.0)}
+add-point(DCA): successful {WASHINGTON, (4232.0,1937.0)}
+add-point(DEN): successful {DENVER, (3357.0,3319.0)}
+add-point(DET): successful {DETROIT, (4692.0,2580.0)}
+add-point(DFW): successful {DALLAS-FORT WORTH, (1969.0,1989.0)}
+add-point(DUG): successful {DOUGLAS, (4895.0,2791.0)}
+add-point(DYS): successful {ABILENE, (3198.0,1350.0)}
+add-point(EDW): successful {EDWARDS AFB, (2329.0,2406.0)}
+add-point(EFD): successful {HOUSTON, (3633.0,1700.0)}
+add-point(ELP): successful {EL PASO, (3567.0,2817.0)}
+add-point(EWR): successful {NEWARK, (2114.0,1003.0)}
+add-point(EYW): successful {KEY WEST, (2260.0,3517.0)}
+add-point(FAT): successful {FRESNO, (1388.0,2745.0)}
+add-point(FFO): successful {DAYTON, (2925.0,4721.0)}
+add-point(FLL): successful {FORT LAUDERDALE, (4927.0,4787.0)}
+add-point(FMY): successful {FORT MYERS, (3827.0,3968.0)}
+add-point(FOE): successful {TOPEKA, (3830.0,3371.0)}
+add-point(FTW): successful {FORT WORTH, (4755.0,1557.0)}
+add-point(FXE): successful {FORT LAUDERDALE, (4302.0,2821.0)}
+add-point(FYV): successful {FAYETTEVILLE, (1155.0,4666.0)}
+add-point(GEG): successful {SPOKANE, (2866.0,4145.0)}
+add-point(GLS): successful {GALVESTON, (4791.0,3182.0)}
+add-point(GRB): successful {GREEN BAY, (2311.0,2422.0)}
+add-point(GRR): successful {GRAND RAPIDS, (1003.0,1562.0)}
+add-point(GSB): successful {GOLDSBORO, (4315.0,1750.0)}
+add-point(GTF): successful {GREAT FALLS, (1668.0,2435.0)}
+add-point(GVT): successful {GREENVILE, (2720.0,1441.0)}
+add-point(GVW): successful {GRANDVIEW, (1028.0,1201.0)}
+add-point(GWO): successful {GREENWOOD, (2681.0,2317.0)}
+add-point(HFD): successful {HARTFORD, (4868.0,2559.0)}
+add-point(HMN): successful {ALAMOGORDO, (1160.0,3135.0)}
+add-point(HOU): successful {HOUSTON, (1880.0,1641.0)}
+add-point(HPN): successful {WHITE PLAINS, (3750.0,4523.0)}
+add-point(HRO): successful {HARRISON, (3543.0,4382.0)}
+add-point(HUF): successful {TERRE HAUTE, (1309.0,3317.0)}
+add-point(IAB): successful {WICHITA, (3497.0,1767.0)}
+add-point(IAD): successful {WASHINGTON, (3646.0,3734.0)}
+add-point(IAG): successful {NIAGARA FALLS, (3129.0,4761.0)}
+add-point(IAH): successful {HOUSTON, (2238.0,1576.0)}
+add-point(IKK): successful {KANKAKEE, (4994.0,3008.0)}
+add-point(ABQ): successful {KIRTLAND A.F.B., (1993.0,1494.0)}
+add-point(ILM): successful {WILMINGTON, (1626.0,2820.0)}
+add-point(IND): successful {INDIANAPOLIS, (3042.0,1318.0)}
+add-point(INT): successful {WINSTON-SALEM, (4555.0,4470.0)}
+add-point(ISP): successful {ISLIP, (3816.0,1556.0)}
+add-point(JAN): successful {JACKSON, (2428.0,3495.0)}
+add-point(JAX): successful {JACKSONVILLE, (3923.0,4384.0)}
+add-point(JBR): successful {JONESBORO, (4688.0,1509.0)}
+add-point(JFK): successful {NEW YORK, (1822.0,2788.0)}
+add-point(LAS): successful {LAS VEGAS, (1610.0,4886.0)}
+add-point(LAX): successful {LOS ANGELES, (3835.0,3033.0)}
+add-point(LBB): successful {LUBBOCK, (1256.0,2761.0)}
+add-point(LCK): successful {COLUMBUS, (3717.0,4167.0)}
+add-point(LGA): successful {NEW YORK, (4556.0,4949.0)}
+add-point(LGB): successful {LONG BEACH, (3869.0,1043.0)}
+add-point(LIT): successful {LITTLE ROCK, (3676.0,1619.0)}
+add-point(LNA): successful {WEST PALM BEACH, (2166.0,2173.0)}
+add-point(LNK): successful {LINCOLN, (3811.0,4044.0)}
+add-point(LOU): successful {LOUISVILLE, (2472.0,4692.0)}
+add-point(LRD): successful {LAREDO, (2652.0,3218.0)}
+add-point(LRF): successful {JACKSONVILLE, (2083.0,1811.0)}
+add-point(LSV): successful {LAS VEGAS, (3064.0,4839.0)}
+add-point(LUF): successful {PHOENIX, (1691.0,1389.0)}
+add-point(LUK): successful {CINCINNATI, (2867.0,4902.0)}
+add-point(MAF): successful {MIDLAND, (4851.0,3542.0)}
+add-point(MCC): successful {SACRAMENTO, (1130.0,4097.0)}
+add-point(MCF): successful {TAMPA, (4545.0,4737.0)}
+add-point(MCI): successful {KANSAS CITY, (2998.0,1206.0)}
+add-point(MCO): successful {ORLANDO, (2122.0,1395.0)}
+add-point(MDT): successful {HARRISBURG, (2850.0,3868.0)}
+add-point(MDW): successful {CHICAGO, (4671.0,1746.0)}
+add-point(MEM): successful {MEMPHIS, (2453.0,1378.0)}
+add-point(MHR): successful {SACRAMENTO, (4869.0,4517.0)}
+add-point(MIA): successful {MIAMI, (4770.0,2579.0)}
+add-point(MKE): successful {MILWAUKEE, (2411.0,3035.0)}
+build-emst(GRB): successful
+ new-nn: (GRB->EDW)
+ add: (GRB:(2311.0,2422.0)--EDW:(2329.0,2406.0)) new-nn: (EDW->LNA) (GRB->LNA)
+ add: (EDW:(2329.0,2406.0)--LNA:(2166.0,2173.0)) new-nn: (EDW->GWO) (GRB->GWO) (LNA->DFW)
+ add: (LNA:(2166.0,2173.0)--DFW:(1969.0,1989.0)) new-nn: (DFW->LRF) (LNA->LRF)
+ add: (DFW:(1969.0,1989.0)--LRF:(2083.0,1811.0)) new-nn: (DFW->HOU) (LNA->BLI) (LRF->HOU)
+ add: (LRF:(2083.0,1811.0)--HOU:(1880.0,1641.0)) new-nn: (DFW->IAH) (HOU->ABQ) (LRF->IAH)
+ add: (HOU:(1880.0,1641.0)--ABQ:(1993.0,1494.0)) new-nn: (ABQ->MCO) (HOU->LUF)
+ add: (ABQ:(1993.0,1494.0)--MCO:(2122.0,1395.0)) new-nn: (ABQ->IAH) (MCO->BOS)
+ add: (MCO:(2122.0,1395.0)--BOS:(2165.0,1245.0)) new-nn: (BOS->EWR) (MCO->IAH)
+ add: (MCO:(2122.0,1395.0)--IAH:(2238.0,1576.0)) new-nn: (ABQ->LUF) (DFW->BUF) (IAH->BUF) (LRF->BUF) (MCO->MEM)
+ add: (IAH:(2238.0,1576.0)--BUF:(2401.0,1671.0)) new-nn: (BUF->BLI) (DFW->GTF) (IAH->MEM) (LRF->BLI)
+ add: (BUF:(2401.0,1671.0)--BLI:(2521.0,1884.0)) new-nn: (BLI->CNW) (BUF->MEM) (LNA->GWO) (LRF->MEM)
+ add: (BLI:(2521.0,1884.0)--CNW:(2671.0,1842.0)) new-nn: (BLI->GWO) (CNW->GVT)
+ add: (BOS:(2165.0,1245.0)--EWR:(2114.0,1003.0)) new-nn: (BOS->MEM) (EWR->BHM)
+ add: (IAH:(2238.0,1576.0)--MEM:(2453.0,1378.0)) new-nn: (BOS->BHM) (BUF->GVT) (IAH->GVT) (LRF->LUF) (MCO->LUF) (MEM->GVT)
+ add: (MEM:(2453.0,1378.0)--GVT:(2720.0,1441.0)) new-nn: (BUF->AUS) (CNW->GWO) (GVT->AUS) (IAH->LUF) (MEM->AUS)
+ add: (GVT:(2720.0,1441.0)--AUS:(2817.0,1344.0)) new-nn: (AUS->IND) (BUF->GWO) (GVT->IND) (MEM->MCI)
+ add: (AUS:(2817.0,1344.0)--IND:(3042.0,1318.0)) new-nn: (AUS->MCI) (GVT->BGR) (IND->BGR)
+ add: (IND:(3042.0,1318.0)--BGR:(3053.0,1328.0)) new-nn: (BGR->MCI) (GVT->MCI) (IND->MCI)
+ add: (IND:(3042.0,1318.0)--MCI:(2998.0,1206.0)) new-nn: (AUS->DYS) (BGR->DYS) (GVT->DYS) (IND->DYS) (MCI->DYS) (MEM->DYS)
+ add: (BGR:(3053.0,1328.0)--DYS:(3198.0,1350.0)) new-nn: (AUS->BUR) (BGR->BUR) (DYS->BUR) (GVT->BUR) (IND->BUR) (MCI->BUR) (MEM->LUF)
+ add: (HOU:(1880.0,1641.0)--LUF:(1691.0,1389.0)) new-nn: (ABQ->BHM) (HOU->BHM) (IAH->BHM) (LRF->BHM) (LUF->BHM) (MCO->BHM) (MEM->BHM)
+ add: (LUF:(1691.0,1389.0)--BHM:(1690.0,1185.0)) new-nn: (ABQ->GRR) (BHM->GVW) (BOS->GVW) (EWR->GVW) (HOU->GTF) (IAH->GWO) (LRF->GTF) (LUF->GVW) (MCO->GWO) (MEM->GWO)
+ add: (EDW:(2329.0,2406.0)--GWO:(2681.0,2317.0)) new-nn: (BLI->IAB) (BUF->GTF) (CNW->IAB) (EDW->MKE) (GRB->JFK) (GWO->DAL) (IAH->GTF) (LNA->GTF) (MCO->GVW) (MEM->BUR)
+ add: (DYS:(3198.0,1350.0)--BUR:(3491.0,1577.0)) new-nn: (AUS->IAB) (BGR->IAB) (BUR->EFD) (DYS->IAB) (GVT->IAB) (IND->IAB) (MCI->IAB) (MEM->IAB)
+ add: (BUR:(3491.0,1577.0)--EFD:(3633.0,1700.0)) new-nn: (BUR->LIT) (EFD->LIT)
+ add: (EFD:(3633.0,1700.0)--LIT:(3676.0,1619.0)) new-nn: (BUR->IAB) (EFD->IAB) (LIT->ISP)
+ add: (EFD:(3633.0,1700.0)--IAB:(3497.0,1767.0)) new-nn: (AUS->ISP) (BGR->ISP) (BLI->GTF) (BUR->ISP) (CNW->GTF) (DYS->ISP) (EFD->ISP) (GVT->ISP) (IAB->ISP) (IND->ISP) (MCI->LGB) (MEM->GTF)
+ add: (LIT:(3676.0,1619.0)--ISP:(3816.0,1556.0)) new-nn: (AUS->LGB) (BGR->LGB) (BUR->LGB) (DYS->LGB) (EFD->DCA) (GVT->LGB) (IAB->DCA) (IND->LGB) (ISP->LGB) (LIT->LGB)
+ add: (ISP:(3816.0,1556.0)--LGB:(3869.0,1043.0)) new-nn: (AUS->DCA) (BGR->DCA) (BUR->DCA) (DYS->GSB) (GVT->GTF) (IND->DCA) (ISP->GSB) (LGB->GSB) (LIT->DCA) (MCI->GSB)
+ add: (ISP:(3816.0,1556.0)--GSB:(4315.0,1750.0)) new-nn: (DYS->DCA) (GSB->DCA) (ISP->DCA) (LGB->CVG) (MCI->DCA)
+ add: (GSB:(4315.0,1750.0)--DCA:(4232.0,1937.0)) new-nn: (AUS->GTF) (BGR->BFM) (BUR->BFM) (DCA->BFM) (DYS->BFM) (EFD->BFM) (GSB->MDW) (IAB->BFM) (IND->BFM) (ISP->CVG) (LIT->BFM) (MCI->BFM)
+ add: (DCA:(4232.0,1937.0)--BFM:(4248.0,2285.0)) new-nn: (BFM->DET) (BGR->ELP) (BUR->CVG) (DCA->MDW) (DYS->CVG) (EFD->MDW) (IAB->ELP) (IND->ELP) (LIT->CVG) (MCI->CVG)
+ add: (GSB:(4315.0,1750.0)--MDW:(4671.0,1746.0)) new-nn: (DCA->JBR) (EFD->CVG) (GSB->JBR) (MDW->FTW)
+ add: (MDW:(4671.0,1746.0)--FTW:(4755.0,1557.0)) new-nn: (FTW->JBR) (MDW->JBR)
+ add: (FTW:(4755.0,1557.0)--JBR:(4688.0,1509.0)) new-nn: (DCA->CVG) (FTW->CVG) (GSB->CVG) (JBR->CVG) (MDW->CVG)
+ add: (JBR:(4688.0,1509.0)--CVG:(4646.0,1425.0)) new-nn: (BUR->ELP) (CVG->HFD) (DCA->DET) (DYS->ELP) (EFD->ELP) (FTW->HFD) (GSB->DET) (ISP->ELP) (JBR->HFD) (LGB->DET) (LIT->ELP) (MCI->ELP) (MDW->DET)
+ add: (BFM:(4248.0,2285.0)--DET:(4692.0,2580.0)) new-nn: (BFM->FXE) (DCA->MIA) (DET->MIA) (GSB->MIA) (LGB->MIA) (MDW->HFD)
+ add: (DET:(4692.0,2580.0)--MIA:(4770.0,2579.0)) new-nn: (DCA->FXE) (DET->HFD) (GSB->HFD) (LGB->ELP) (MIA->HFD)
+ add: (MIA:(4770.0,2579.0)--HFD:(4868.0,2559.0)) new-nn: (CVG->DUG) (DET->DUG) (FTW->DUG) (GSB->FXE) (HFD->DUG) (JBR->DUG) (MDW->DUG) (MIA->DUG)
+ add: (HFD:(4868.0,2559.0)--DUG:(4895.0,2791.0)) new-nn: (CVG->FXE) (DET->FXE) (DUG->IKK) (FTW->FXE) (HFD->IKK) (JBR->FXE) (MDW->FXE) (MIA->IKK)
+ add: (DUG:(4895.0,2791.0)--IKK:(4994.0,3008.0)) new-nn: (DUG->GLS) (HFD->FXE) (IKK->GLS) (MIA->FXE)
+ add: (IKK:(4994.0,3008.0)--GLS:(4791.0,3182.0)) new-nn: (DUG->FXE) (GLS->MAF) (IKK->MAF)
+ add: (GLS:(4791.0,3182.0)--MAF:(4851.0,3542.0)) new-nn: (GLS->FXE) (IKK->FXE) (MAF->FXE)
+ add: (DET:(4692.0,2580.0)--FXE:(4302.0,2821.0)) new-nn: (BFM->LAX) (CVG->ELP) (DCA->ELP) (DET->LAX) (DUG->LAX) (FTW->ELP) (FXE->LAX) (GLS->LAX) (GSB->ELP) (HFD->LAX) (IKK->LAX) (JBR->ELP) (MAF->INT) (MDW->LAX) (MIA->LAX)
+ add: (FXE:(4302.0,2821.0)--LAX:(3835.0,3033.0)) new-nn: (BFM->ELP) (DET->ELP) (DUG->FOE) (FXE->FOE) (GLS->FOE) (HFD->FOE) (IKK->FOE) (LAX->FOE) (MDW->ELP) (MIA->ELP)
+ add: (LAX:(3835.0,3033.0)--FOE:(3830.0,3371.0)) new-nn: (DUG->ELP) (FOE->IAD) (FXE->ELP) (GLS->FMY) (HFD->ELP) (IKK->ELP) (LAX->ELP)
+ add: (LAX:(3835.0,3033.0)--ELP:(3567.0,2817.0)) new-nn: (BFM->DEN) (BGR->DAL) (BUR->DAL) (CVG->DAL) (DCA->DAL) (DET->DEN) (DUG->IAD) (DYS->DAL) (EFD->DAL) (ELP->DEN) (FTW->DEN) (FXE->DEN) (GSB->DAL) (HFD->DEN) (IAB->DAL) (IKK->FMY) (IND->DAL) (ISP->DAL) (JBR->DEN) (LAX->DEN) (LGB->DAL) (LIT->DAL) (MCI->DAL) (MDW->DEN) (MIA->DEN)
+ add: (FOE:(3830.0,3371.0)--IAD:(3646.0,3734.0)) new-nn: (DUG->FMY) (FOE->DEN) (IAD->FMY)
+ add: (IAD:(3646.0,3734.0)--FMY:(3827.0,3968.0)) new-nn: (DUG->DEN) (FMY->LNK) (GLS->LNK) (IAD->LNK) (IKK->MHR)
+ add: (FMY:(3827.0,3968.0)--LNK:(3811.0,4044.0)) new-nn: (FMY->LCK) (GLS->INT) (IAD->LCK) (LNK->LCK)
+ add: (LNK:(3811.0,4044.0)--LCK:(3717.0,4167.0)) new-nn: (FMY->AUG) (IAD->BOI) (LCK->AUG) (LNK->AUG)
+ add: (LCK:(3717.0,4167.0)--AUG:(3762.0,4358.0)) new-nn: (AUG->JAX) (FMY->JAX) (LCK->HRO) (LNK->JAX)
+ add: (AUG:(3762.0,4358.0)--JAX:(3923.0,4384.0)) new-nn: (AUG->HPN) (FMY->BOI) (JAX->HPN) (LNK->HRO)
+ add: (AUG:(3762.0,4358.0)--HPN:(3750.0,4523.0)) new-nn: (AUG->HRO) (HPN->HRO) (JAX->HRO)
+ add: (AUG:(3762.0,4358.0)--HRO:(3543.0,4382.0)) new-nn: (AUG->BOI) (HPN->BOI) (HRO->BOI) (JAX->BOI) (LCK->BOI) (LNK->BOI)
+ add: (HRO:(3543.0,4382.0)--BOI:(3382.0,4118.0)) new-nn: (AUG->IAG) (BOI->GEG) (FMY->DEN) (HPN->IAG) (HRO->IAG) (IAD->DEN) (JAX->INT) (LCK->IAG) (LNK->DEN)
+ add: (FOE:(3830.0,3371.0)--DEN:(3357.0,3319.0)) new-nn: (BFM->DAL) (DEN->DAL) (DET->DAL) (DUG->INT) (ELP->DAL) (FMY->INT) (FOE->DAL) (FTW->DAL) (FXE->DAL) (HFD->INT) (IAD->MDT) (JBR->DAL) (LAX->DAL) (LNK->INT) (MDW->DAL) (MIA->DAL)
+ add: (DEN:(3357.0,3319.0)--DAL:(2977.0,2983.0)) new-nn: (BFM->LRD) (BGR->GTF) (BUR->MKE) (CVG->LRD) (DAL->LRD) (DCA->LRD) (DEN->LRD) (DET->INT) (DYS->MKE) (EFD->LRD) (ELP->LRD) (FOE->MDT) (FTW->LRD) (FXE->INT) (GSB->LRD) (GWO->MKE) (IAB->MKE) (IND->GTF) (ISP->LRD) (JBR->LRD) (LAX->LRD) (LGB->MKE) (LIT->MKE) (MCI->GTF) (MDW->LRD) (MIA->INT)
+ add: (DAL:(2977.0,2983.0)--LRD:(2652.0,3218.0)) new-nn: (BFM->MKE) (CVG->MKE) (DAL->MKE) (DCA->MKE) (DEN->MDT) (EFD->MKE) (ELP->MKE) (FTW->MKE) (GSB->MKE) (ISP->MKE) (JBR->MKE) (LAX->MDT) (LRD->MKE) (MDW->MKE)
+ add: (LRD:(2652.0,3218.0)--MKE:(2411.0,3035.0)) new-nn: (BFM->MDT) (BUR->GTF) (CVG->MDT) (DAL->JAN) (DCA->MDT) (DYS->GTF) (EDW->JFK) (EFD->GTF) (ELP->MDT) (FTW->INT) (GSB->JAN) (GWO->JFK) (IAB->GTF) (ISP->GTF) (JBR->INT) (LGB->GTF) (LIT->GTF) (LRD->JAN) (MDW->INT) (MKE->JAN)
+ add: (LRD:(2652.0,3218.0)--JAN:(2428.0,3495.0)) new-nn: (DAL->EYW) (GSB->MDT) (JAN->EYW) (LRD->EYW) (MKE->EYW)
+ add: (JAN:(2428.0,3495.0)--EYW:(2260.0,3517.0)) new-nn: (DAL->MDT) (EYW->BWI) (JAN->CLE) (LRD->CLE) (MKE->BWI)
+ add: (EYW:(2260.0,3517.0)--BWI:(1957.0,3449.0)) new-nn: (BWI->CBM) (EYW->CLE) (MKE->JFK)
+ add: (BWI:(1957.0,3449.0)--CBM:(1762.0,3209.0)) new-nn: (BWI->ALB) (CBM->ATL)
+ add: (CBM:(1762.0,3209.0)--ATL:(1438.0,3265.0)) new-nn: (ATL->HUF) (CBM->ILM)
+ add: (ATL:(1438.0,3265.0)--HUF:(1309.0,3317.0)) new-nn: (ATL->HMN) (HUF->HMN)
+ add: (HUF:(1309.0,3317.0)--HMN:(1160.0,3135.0)) new-nn: (ATL->CHS) (HMN->CHS) (HUF->CHS)
+ add: (HMN:(1160.0,3135.0)--CHS:(1343.0,2854.0)) new-nn: (ATL->ILM) (CHS->FAT) (HMN->LBB) (HUF->LBB)
+ add: (CHS:(1343.0,2854.0)--FAT:(1388.0,2745.0)) new-nn: (CHS->LBB) (FAT->LBB)
+ add: (CHS:(1343.0,2854.0)--LBB:(1256.0,2761.0)) new-nn: (CHS->ILM) (FAT->ILM) (HMN->ILM) (HUF->ILM) (LBB->ILM)
+ add: (FAT:(1388.0,2745.0)--ILM:(1626.0,2820.0)) new-nn: (ATL->JFK) (CBM->JFK) (CHS->JFK) (FAT->GTF) (HMN->JFK) (HUF->ALB) (ILM->JFK) (LBB->GTF)
+ add: (ILM:(1626.0,2820.0)--JFK:(1822.0,2788.0)) new-nn: (ATL->ALB) (CBM->ALB) (CHS->GTF) (EDW->GTF) (GRB->GTF) (GWO->GTF) (HMN->ALB) (ILM->GTF) (JFK->GTF) (MKE->CLE)
+ add: (JAN:(2428.0,3495.0)--CLE:(2493.0,3859.0)) new-nn: (CLE->AMA) (EYW->AMA) (JAN->AMA) (LRD->MDT) (MKE->MDT)
+ add: (CLE:(2493.0,3859.0)--AMA:(2628.0,3954.0)) new-nn: (AMA->CLT) (CLE->CLT) (EYW->CLT) (JAN->MDT)
+ add: (AMA:(2628.0,3954.0)--CLT:(2622.0,4041.0)) new-nn: (AMA->ACY) (CLE->ACY) (CLT->ACY) (EYW->ACY)
+ add: (CLT:(2622.0,4041.0)--ACY:(2583.0,4072.0)) new-nn: (ACY->GEG) (AMA->MDT) (CLE->MDT) (CLT->GEG) (EYW->DAY)
+ add: (AMA:(2628.0,3954.0)--MDT:(2850.0,3868.0)) new-nn: (AMA->GEG) (BFM->INT) (CLE->GEG) (CVG->INT) (DAL->GEG) (DCA->INT) (DEN->GEG) (ELP->GEG) (FOE->GEG) (GSB->INT) (IAD->GEG) (JAN->DAY) (LAX->GEG) (LRD->GEG) (MDT->GEG) (MKE->GTF)
+ add: (CLT:(2622.0,4041.0)--GEG:(2866.0,4145.0)) new-nn: (ACY->BTR) (AMA->BTR) (BOI->IAG) (CLE->BTR) (CLT->BTR) (DAL->GTF) (DEN->IAG) (ELP->INT) (FOE->INT) (GEG->FFO) (IAD->IAG) (LAX->INT) (LRD->DAY) (MDT->BTR)
+ add: (JFK:(1822.0,2788.0)--GTF:(1668.0,2435.0)) new-nn: (AUS->GVW) (BGR->GVW) (BLI->GRR) (BUF->GRR) (BUR->GRR) (CHS->ALB) (CNW->GRR) (DAL->DAY) (DFW->GRR) (DYS->GVW) (EDW->GRR) (EFD->GRR) (FAT->ALB) (GRB->GRR) (GTF->GRR) (GVT->GVW) (GWO->GRR) (HOU->GRR) (IAB->GRR) (IAH->GRR) (ILM->ALB) (IND->GVW) (ISP->GVW) (JFK->ALB) (LBB->ALB) (LGB->GVW) (LIT->GRR) (LNA->GRR) (LRF->GRR) (MCI->GVW) (MEM->GVW) (MKE->DAY)
+ add: (ACY:(2583.0,4072.0)--BTR:(2214.0,4281.0)) new-nn: (ACY->DAY) (AMA->DAY) (BTR->DAY) (CLE->DAY) (CLT->DAY) (MDT->DAY)
+ add: (BTR:(2214.0,4281.0)--DAY:(2061.0,4129.0)) new-nn: (ACY->LOU) (AMA->LOU) (BTR->LOU) (CLE->LOU) (CLT->LOU) (DAL->ALB) (DAY->ALB) (EYW->ALB) (JAN->ALB) (LRD->ALB) (MDT->FFO) (MKE->ALB)
+ add: (BTR:(2214.0,4281.0)--LOU:(2472.0,4692.0)) new-nn: (ACY->FFO) (AMA->FFO) (BTR->ALB) (CLE->ALB) (CLT->FFO) (LOU->LUK)
+ add: (LOU:(2472.0,4692.0)--LUK:(2867.0,4902.0)) new-nn: (LOU->FFO) (LUK->FFO)
+ add: (LUK:(2867.0,4902.0)--FFO:(2925.0,4721.0)) new-nn: (ACY->IAG) (AMA->IAG) (CLT->IAG) (FFO->LSV) (GEG->IAG) (LOU->LSV) (LUK->LSV) (MDT->IAG)
+ add: (FFO:(2925.0,4721.0)--LSV:(3064.0,4839.0)) new-nn: (FFO->IAG) (LOU->IAG) (LSV->IAG) (LUK->IAG)
+ add: (LSV:(3064.0,4839.0)--IAG:(3129.0,4761.0)) new-nn: (ACY->ALB) (AMA->ALB) (AUG->INT) (BOI->INT) (CLT->ALB) (DEN->INT) (FFO->LAS) (GEG->ALB) (HPN->INT) (HRO->INT) (IAD->INT) (IAG->MCF) (LCK->INT) (LOU->LAS) (LSV->LAS) (LUK->LAS) (MDT->ALB)
+ add: (DAY:(2061.0,4129.0)--ALB:(1608.0,3867.0)) new-nn: (ACY->LAS) (ALB->MCC) (AMA->LAS) (ATL->MCC) (BTR->LAS) (BWI->MCC) (CBM->MCC) (CHS->MCC) (CLE->LAS) (CLT->LAS) (DAL->MCC) (DAY->COS) (EYW->MCC) (FAT->GRR) (GEG->LAS) (HMN->MCC) (HUF->MCC) (ILM->MCC) (JAN->MCC) (JFK->GRR) (LBB->GRR) (LRD->MCC) (MDT->LAS) (MKE->MCC)
+ add: (ALB:(1608.0,3867.0)--MCC:(1130.0,4097.0)) new-nn: (ALB->COS) (ATL->COS) (BWI->COS) (CBM->COS) (CHS->GRR) (DAL->INT) (EYW->COS) (HMN->COS) (HUF->COS) (ILM->GRR) (JAN->COS) (LRD->COS) (MCC->FYV) (MKE->COS)
+ add: (MCC:(1130.0,4097.0)--FYV:(1155.0,4666.0)) new-nn: (FYV->COS) (MCC->COS)
+ add: (FYV:(1155.0,4666.0)--COS:(1386.0,4646.0)) new-nn: (ALB->LAS) (ATL->LAS) (BWI->LAS) (CBM->LAS) (COS->LAS) (DAY->LAS) (EYW->LAS) (FYV->LAS) (HMN->GRR) (HUF->LAS) (JAN->LAS) (LRD->LAS) (MCC->LAS) (MKE->LAS)
+ add: (COS:(1386.0,4646.0)--LAS:(1610.0,4886.0)) new-nn: (ACY->INT) (ALB->GRR) (AMA->INT) (ATL->GRR) (BTR->INT) (BWI->GRR) (CBM->GRR) (CLE->INT) (CLT->INT) (COS->GRR) (DAY->INT) (EYW->GRR) (FFO->MCF) (FYV->GRR) (GEG->INT) (HUF->GRR) (JAN->INT) (LAS->MCF) (LOU->MCF) (LRD->INT) (LSV->MCF) (LUK->MCF) (MCC->GRR) (MDT->INT) (MKE->GRR)
+ add: (JAX:(3923.0,4384.0)--INT:(4555.0,4470.0)) new-nn: (ACY->MCF) (AMA->MCF) (AUG->MCF) (BFM->MHR) (BOI->MCF) (BTR->MCF) (CLE->MCF) (CLT->MCF) (CVG->MHR) (DAL->MCF) (DAY->MCF) (DCA->MHR) (DEN->MCF) (DET->MHR) (DUG->MHR) (ELP->MHR) (FMY->MCF) (FOE->MCF) (FTW->MHR) (FXE->MHR) (GEG->MCF) (GLS->MHR) (GSB->MHR) (HFD->MHR) (HPN->MCF) (HRO->MCF) (IAD->MCF) (INT->MCF) (JAN->GRR) (JAX->MCF) (JBR->MHR) (LAX->MHR) (LCK->MCF) (LNK->MCF) (LRD->GRR) (MAF->MHR) (MDT->MCF) (MDW->MHR) (MIA->MHR)
+ add: (INT:(4555.0,4470.0)--MCF:(4545.0,4737.0)) new-nn: (ACY->LGA) (AMA->LGA) (AUG->LGA) (BOI->LGA) (BTR->LGA) (CLE->LGA) (CLT->LGA) (DAL->GRR) (DAY->LGA) (DEN->MHR) (FFO->LGA) (FMY->MHR) (FOE->MHR) (GEG->LGA) (HPN->LGA) (HRO->LGA) (IAD->MHR) (IAG->LGA) (INT->MHR) (JAX->LGA) (LAS->LGA) (LCK->LGA) (LNK->MHR) (LOU->LGA) (LSV->LGA) (LUK->LGA) (MCF->LGA) (MDT->LGA)
+ add: (MCF:(4545.0,4737.0)--LGA:(4556.0,4949.0)) new-nn: (ACY->MHR) (AMA->MHR) (AUG->BNA) (BOI->MHR) (BTR->BNA) (CLE->MHR) (CLT->MHR) (DAY->GRR) (FFO->BNA) (GEG->MHR) (HPN->BNA) (HRO->BNA) (IAG->BNA) (JAX->MHR) (LAS->BNA) (LCK->MHR) (LGA->BNA) (LOU->BNA) (LSV->BNA) (LUK->BNA) (MCF->BNA) (MDT->MHR)
+ add: (MCF:(4545.0,4737.0)--BNA:(4837.0,4663.0)) new-nn: (AUG->MHR) (BNA->MHR) (BTR->MHR) (FFO->MHR) (HPN->MHR) (HRO->MHR) (IAG->MHR) (LAS->MHR) (LGA->FLL) (LOU->MHR) (LSV->MHR) (LUK->MHR) (MCF->FLL)
+ add: (BNA:(4837.0,4663.0)--MHR:(4869.0,4517.0)) new-nn: (ACY->FLL) (AMA->FLL) (AUG->FLL) (BFM->FLL) (BNA->FLL) (BOI->FLL) (BTR->FLL) (CLE->FLL) (CLT->FLL) (CVG->FLL) (DCA->FLL) (DEN->FLL) (DET->FLL) (DUG->FLL) (ELP->FLL) (FFO->FLL) (FMY->FLL) (FOE->FLL) (FTW->FLL) (FXE->FLL) (GEG->FLL) (GLS->FLL) (GSB->FLL) (HFD->FLL) (HPN->FLL) (HRO->FLL) (IAD->FLL) (IAG->FLL) (IKK->FLL) (INT->FLL) (JAX->FLL) (JBR->FLL) (LAS->FLL) (LAX->FLL) (LCK->FLL) (LNK->FLL) (LOU->FLL) (LSV->FLL) (LUK->FLL) (MAF->FLL) (MDT->FLL) (MDW->FLL) (MHR->FLL) (MIA->FLL)
+ add: (BNA:(4837.0,4663.0)--FLL:(4927.0,4787.0)) new-nn: (ACY->GRR) (AMA->GRR) (AUG->GRR) (BFM->GRR) (BNA->GRR) (BOI->GRR) (BTR->GRR) (CLE->GRR) (CLT->GRR) (CVG->GVW) (DCA->GRR) (DEN->GRR) (DET->GRR) (DUG->GRR) (ELP->GRR) (FFO->GRR) (FLL->GRR) (FMY->GRR) (FOE->GRR) (FTW->GVW) (FXE->GRR) (GEG->GRR) (GLS->GRR) (GSB->GRR) (HFD->GRR) (HPN->GRR) (HRO->GRR) (IAD->GRR) (IAG->GRR) (IKK->GRR) (INT->GRR) (JAX->GRR) (JBR->GVW) (LAS->GRR) (LAX->GRR) (LCK->GRR) (LGA->GRR) (LNK->GRR) (LOU->GRR) (LSV->GRR) (LUK->GRR) (MAF->GRR) (MCF->GRR) (MDT->GRR) (MDW->GRR) (MHR->GRR) (MIA->GRR)
+ add: (BHM:(1690.0,1185.0)--GVW:(1028.0,1201.0)) new-nn: (AUS->GRR) (BGR->GRR) (BHM->GRR) (BOS->GRR) (CVG->GRR) (DYS->GRR) (EWR->GRR) (FTW->GRR) (GVT->GRR) (GVW->GRR) (IND->GRR) (ISP->GRR) (JBR->GRR) (LGB->GRR) (LUF->GRR) (MCI->GRR) (MCO->GRR) (MEM->GRR)
+ add: (GVW:(1028.0,1201.0)--GRR:(1003.0,1562.0)) new-nn:
+list-emst: (GRB,EDW) (EDW,LNA) (LNA,DFW) (DFW,LRF) (LRF,HOU) (HOU,ABQ) (ABQ,MCO) (MCO,BOS) (MCO,IAH) (IAH,BUF) (BUF,BLI) (BLI,CNW) (BOS,EWR) (IAH,MEM) (MEM,GVT) (GVT,AUS) (AUS,IND) (IND,BGR) (IND,MCI) (BGR,DYS) (HOU,LUF) (LUF,BHM) (EDW,GWO) (DYS,BUR) (BUR,EFD) (EFD,LIT) (EFD,IAB) (LIT,ISP) (ISP,LGB) (ISP,GSB) (GSB,DCA) (DCA,BFM) (GSB,MDW) (MDW,FTW) (FTW,JBR) (JBR,CVG) (BFM,DET) (DET,MIA) (MIA,HFD) (HFD,DUG) (DUG,IKK) (IKK,GLS) (GLS,MAF) (DET,FXE) (FXE,LAX) (LAX,FOE) (LAX,ELP) (FOE,IAD) (IAD,FMY) (FMY,LNK) (LNK,LCK) (LCK,AUG) (AUG,JAX) (AUG,HPN) (AUG,HRO) (HRO,BOI) (FOE,DEN) (DEN,DAL) (DAL,LRD) (LRD,MKE) (LRD,JAN) (JAN,EYW) (EYW,BWI) (BWI,CBM) (CBM,ATL) (ATL,HUF) (HUF,HMN) (HMN,CHS) (CHS,FAT) (CHS,LBB) (FAT,ILM) (ILM,JFK) (JAN,CLE) (CLE,AMA) (AMA,CLT) (CLT,ACY) (AMA,MDT) (CLT,GEG) (JFK,GTF) (ACY,BTR) (BTR,DAY) (BTR,LOU) (LOU,LUK) (LUK,FFO) (FFO,LSV) (LSV,IAG) (DAY,ALB) (ALB,MCC) (MCC,FYV) (FYV,COS) (COS,LAS) (JAX,INT) (INT,MCF) (MCF,LGA) (MCF,BNA) (BNA,MHR) (BNA,FLL) (BHM,GVW) (GVW,GRR)
+build-emst(MKE): successful
+ new-nn: (MKE->LRD)
+ add: (MKE:(2411.0,3035.0)--LRD:(2652.0,3218.0)) new-nn: (LRD->JAN) (MKE->JAN)
+ add: (LRD:(2652.0,3218.0)--JAN:(2428.0,3495.0)) new-nn: (JAN->EYW) (LRD->DAL) (MKE->EYW)
+ add: (JAN:(2428.0,3495.0)--EYW:(2260.0,3517.0)) new-nn: (EYW->BWI) (JAN->CLE) (MKE->DAL)
+ add: (EYW:(2260.0,3517.0)--BWI:(1957.0,3449.0)) new-nn: (BWI->CBM) (EYW->CLE)
+ add: (BWI:(1957.0,3449.0)--CBM:(1762.0,3209.0)) new-nn: (BWI->ALB) (CBM->ATL)
+ add: (CBM:(1762.0,3209.0)--ATL:(1438.0,3265.0)) new-nn: (ATL->HUF) (CBM->ILM)
+ add: (ATL:(1438.0,3265.0)--HUF:(1309.0,3317.0)) new-nn: (ATL->HMN) (HUF->HMN)
+ add: (HUF:(1309.0,3317.0)--HMN:(1160.0,3135.0)) new-nn: (ATL->CHS) (HMN->CHS) (HUF->CHS)
+ add: (HMN:(1160.0,3135.0)--CHS:(1343.0,2854.0)) new-nn: (ATL->ILM) (CHS->FAT) (HMN->LBB) (HUF->LBB)
+ add: (CHS:(1343.0,2854.0)--FAT:(1388.0,2745.0)) new-nn: (CHS->LBB) (FAT->LBB)
+ add: (CHS:(1343.0,2854.0)--LBB:(1256.0,2761.0)) new-nn: (CHS->ILM) (FAT->ILM) (HMN->ILM) (HUF->ILM) (LBB->ILM)
+ add: (FAT:(1388.0,2745.0)--ILM:(1626.0,2820.0)) new-nn: (ATL->JFK) (CBM->JFK) (CHS->JFK) (FAT->GTF) (HMN->JFK) (HUF->ALB) (ILM->JFK) (LBB->GTF)
+ add: (ILM:(1626.0,2820.0)--JFK:(1822.0,2788.0)) new-nn: (ATL->ALB) (CBM->ALB) (CHS->GTF) (HMN->ALB) (ILM->GTF) (JFK->GTF)
+ add: (JAN:(2428.0,3495.0)--CLE:(2493.0,3859.0)) new-nn: (CLE->AMA) (EYW->AMA) (JAN->AMA)
+ add: (CLE:(2493.0,3859.0)--AMA:(2628.0,3954.0)) new-nn: (AMA->CLT) (CLE->CLT) (EYW->CLT) (JAN->MDT)
+ add: (AMA:(2628.0,3954.0)--CLT:(2622.0,4041.0)) new-nn: (AMA->ACY) (CLE->ACY) (CLT->ACY) (EYW->ACY)
+ add: (CLT:(2622.0,4041.0)--ACY:(2583.0,4072.0)) new-nn: (ACY->GEG) (AMA->MDT) (CLE->MDT) (CLT->GEG) (EYW->DAY)
+ add: (AMA:(2628.0,3954.0)--MDT:(2850.0,3868.0)) new-nn: (AMA->GEG) (CLE->GEG) (JAN->DAY) (MDT->GEG)
+ add: (CLT:(2622.0,4041.0)--GEG:(2866.0,4145.0)) new-nn: (ACY->BTR) (AMA->BTR) (CLE->BTR) (CLT->BTR) (GEG->BOI) (MDT->BOI)
+ add: (JFK:(1822.0,2788.0)--GTF:(1668.0,2435.0)) new-nn: (CHS->ALB) (FAT->DFW) (GTF->DFW) (ILM->GRB) (JFK->GRB) (LBB->DFW)
+ add: (LRD:(2652.0,3218.0)--DAL:(2977.0,2983.0)) new-nn: (DAL->DEN) (LRD->DEN) (MKE->GRB)
+ add: (ACY:(2583.0,4072.0)--BTR:(2214.0,4281.0)) new-nn: (ACY->DAY) (AMA->DAY) (BTR->DAY) (CLE->DAY) (CLT->DAY)
+ add: (BTR:(2214.0,4281.0)--DAY:(2061.0,4129.0)) new-nn: (ACY->LOU) (AMA->LOU) (BTR->LOU) (CLE->LOU) (CLT->LOU) (DAY->ALB) (EYW->ALB) (JAN->ALB)
+ add: (BTR:(2214.0,4281.0)--LOU:(2472.0,4692.0)) new-nn: (ACY->FFO) (AMA->BOI) (BTR->ALB) (CLE->ALB) (CLT->FFO) (LOU->LUK)
+ add: (LOU:(2472.0,4692.0)--LUK:(2867.0,4902.0)) new-nn: (LOU->FFO) (LUK->FFO)
+ add: (LUK:(2867.0,4902.0)--FFO:(2925.0,4721.0)) new-nn: (ACY->BOI) (CLT->BOI) (FFO->LSV) (LOU->LSV) (LUK->LSV)
+ add: (FFO:(2925.0,4721.0)--LSV:(3064.0,4839.0)) new-nn: (FFO->IAG) (LOU->IAG) (LSV->IAG) (LUK->IAG)
+ add: (LSV:(3064.0,4839.0)--IAG:(3129.0,4761.0)) new-nn: (FFO->HRO) (IAG->HRO) (LOU->LAS) (LSV->HRO) (LUK->HRO)
+ add: (DAL:(2977.0,2983.0)--DEN:(3357.0,3319.0)) new-nn: (DAL->ELP) (DEN->FOE) (LRD->GRB)
+ add: (DEN:(3357.0,3319.0)--FOE:(3830.0,3371.0)) new-nn: (DEN->IAD) (FOE->LAX)
+ add: (FOE:(3830.0,3371.0)--LAX:(3835.0,3033.0)) new-nn: (FOE->IAD) (LAX->ELP)
+ add: (LAX:(3835.0,3033.0)--ELP:(3567.0,2817.0)) new-nn: (DAL->GWO) (ELP->FXE) (LAX->FXE)
+ add: (FOE:(3830.0,3371.0)--IAD:(3646.0,3734.0)) new-nn: (DEN->BOI) (FOE->FMY) (IAD->FMY)
+ add: (IAD:(3646.0,3734.0)--FMY:(3827.0,3968.0)) new-nn: (FMY->LNK) (FOE->LNK) (IAD->LNK)
+ add: (FMY:(3827.0,3968.0)--LNK:(3811.0,4044.0)) new-nn: (FMY->LCK) (FOE->FXE) (IAD->LCK) (LNK->LCK)
+ add: (LNK:(3811.0,4044.0)--LCK:(3717.0,4167.0)) new-nn: (FMY->AUG) (IAD->BOI) (LCK->AUG) (LNK->AUG)
+ add: (LCK:(3717.0,4167.0)--AUG:(3762.0,4358.0)) new-nn: (AUG->JAX) (FMY->JAX) (LCK->HRO) (LNK->JAX)
+ add: (AUG:(3762.0,4358.0)--JAX:(3923.0,4384.0)) new-nn: (AUG->HPN) (FMY->BOI) (JAX->HPN) (LNK->HRO)
+ add: (AUG:(3762.0,4358.0)--HPN:(3750.0,4523.0)) new-nn: (AUG->HRO) (HPN->HRO) (JAX->HRO)
+ add: (AUG:(3762.0,4358.0)--HRO:(3543.0,4382.0)) new-nn: (AUG->BOI) (FFO->BOI) (HPN->BOI) (HRO->BOI) (IAG->BOI) (JAX->BOI) (LCK->BOI) (LNK->BOI) (LSV->BOI) (LUK->BOI)
+ add: (HRO:(3543.0,4382.0)--BOI:(3382.0,4118.0)) new-nn: (ACY->ALB) (AMA->ALB) (AUG->INT) (BOI->INT) (CLT->ALB) (DEN->FXE) (FFO->LAS) (FMY->INT) (GEG->ALB) (HPN->INT) (HRO->INT) (IAD->FXE) (IAG->MCF) (JAX->INT) (LCK->INT) (LNK->INT) (LSV->LAS) (LUK->LAS) (MDT->ALB)
+ add: (LAX:(3835.0,3033.0)--FXE:(4302.0,2821.0)) new-nn: (DEN->GWO) (ELP->BFM) (FOE->GLS) (FXE->DET) (IAD->INT) (LAX->BFM)
+ add: (FXE:(4302.0,2821.0)--DET:(4692.0,2580.0)) new-nn: (DET->MIA) (FXE->MIA)
+ add: (DET:(4692.0,2580.0)--MIA:(4770.0,2579.0)) new-nn: (DET->HFD) (FXE->BFM) (MIA->HFD)
+ add: (MIA:(4770.0,2579.0)--HFD:(4868.0,2559.0)) new-nn: (DET->DUG) (HFD->DUG) (MIA->DUG)
+ add: (HFD:(4868.0,2559.0)--DUG:(4895.0,2791.0)) new-nn: (DET->IKK) (DUG->IKK) (HFD->IKK) (MIA->IKK)
+ add: (DUG:(4895.0,2791.0)--IKK:(4994.0,3008.0)) new-nn: (DET->BFM) (DUG->GLS) (HFD->GLS) (IKK->GLS) (MIA->BFM)
+ add: (IKK:(4994.0,3008.0)--GLS:(4791.0,3182.0)) new-nn: (DUG->MAF) (FOE->MAF) (GLS->MAF) (HFD->BFM) (IKK->MAF)
+ add: (GLS:(4791.0,3182.0)--MAF:(4851.0,3542.0)) new-nn: (DUG->BFM) (FOE->BFM) (GLS->BFM) (IKK->BFM) (MAF->INT)
+ add: (DAY:(2061.0,4129.0)--ALB:(1608.0,3867.0)) new-nn: (ACY->LAS) (ALB->MCC) (AMA->LAS) (ATL->MCC) (BTR->LAS) (BWI->MCC) (CBM->GRB) (CHS->GRB) (CLE->LAS) (CLT->LAS) (DAY->COS) (EYW->GRB) (GEG->LAS) (HMN->MCC) (HUF->MCC) (JAN->GRB) (MDT->GRB)
+ add: (ALB:(1608.0,3867.0)--MCC:(1130.0,4097.0)) new-nn: (ALB->COS) (ATL->GRB) (BWI->GRB) (HMN->GRB) (HUF->COS) (MCC->FYV)
+ add: (DET:(4692.0,2580.0)--BFM:(4248.0,2285.0)) new-nn: (BFM->DCA) (DET->DCA) (DUG->MDW) (ELP->GWO) (FOE->INT) (FXE->DCA) (GLS->INT) (HFD->MDW) (IKK->MDW) (LAX->DCA) (MIA->DCA)
+ add: (BFM:(4248.0,2285.0)--DCA:(4232.0,1937.0)) new-nn: (BFM->GSB) (DCA->GSB) (DET->MDW) (FXE->GSB) (LAX->IAB) (MIA->MDW)
+ add: (DCA:(4232.0,1937.0)--GSB:(4315.0,1750.0)) new-nn: (BFM->MDW) (DCA->MDW) (FXE->MDW) (GSB->MDW)
+ add: (GSB:(4315.0,1750.0)--MDW:(4671.0,1746.0)) new-nn: (BFM->ISP) (DCA->ISP) (DET->FTW) (DUG->FTW) (FXE->EFD) (GSB->JBR) (HFD->FTW) (IKK->FTW) (MDW->FTW) (MIA->FTW)
+ add: (MDW:(4671.0,1746.0)--FTW:(4755.0,1557.0)) new-nn: (DET->JBR) (DUG->JBR) (FTW->JBR) (HFD->JBR) (IKK->MHR) (MDW->JBR) (MIA->JBR)
+ add: (FTW:(4755.0,1557.0)--JBR:(4688.0,1509.0)) new-nn: (DET->CVG) (DUG->CVG) (FTW->CVG) (GSB->CVG) (HFD->CVG) (JBR->CVG) (MDW->CVG) (MIA->CVG)
+ add: (JBR:(4688.0,1509.0)--CVG:(4646.0,1425.0)) new-nn: (CVG->ISP) (DET->ISP) (DUG->ISP) (FTW->ISP) (GSB->ISP) (HFD->ISP) (JBR->ISP) (MDW->ISP) (MIA->ISP)
+ add: (GSB:(4315.0,1750.0)--ISP:(3816.0,1556.0)) new-nn: (BFM->EFD) (CVG->LGB) (DCA->LIT) (DET->EFD) (DUG->EFD) (FTW->LGB) (GSB->LIT) (HFD->EFD) (ISP->LIT) (JBR->LGB) (MDW->LIT) (MIA->EFD)
+ add: (ISP:(3816.0,1556.0)--LIT:(3676.0,1619.0)) new-nn: (DCA->EFD) (GSB->EFD) (ISP->EFD) (LIT->EFD) (MDW->EFD)
+ add: (LIT:(3676.0,1619.0)--EFD:(3633.0,1700.0)) new-nn: (BFM->IAB) (DCA->IAB) (DET->IAB) (DUG->INT) (EFD->IAB) (FXE->IAB) (GSB->IAB) (HFD->IAB) (ISP->BUR) (LIT->BUR) (MDW->LGB) (MIA->IAB)
+ add: (EFD:(3633.0,1700.0)--IAB:(3497.0,1767.0)) new-nn: (BFM->BUR) (DCA->BUR) (DET->BUR) (EFD->BUR) (FXE->BUR) (GSB->LGB) (HFD->BUR) (IAB->BUR) (LAX->GWO) (MIA->BUR)
+ add: (EFD:(3633.0,1700.0)--BUR:(3491.0,1577.0)) new-nn: (BFM->LGB) (BUR->DYS) (DCA->LGB) (DET->LGB) (EFD->DYS) (FXE->INT) (HFD->LGB) (IAB->DYS) (ISP->LGB) (LIT->DYS) (MIA->LGB)
+ add: (BUR:(3491.0,1577.0)--DYS:(3198.0,1350.0)) new-nn: (BUR->BGR) (DYS->BGR) (EFD->BGR) (IAB->BGR) (LIT->LGB)
+ add: (DYS:(3198.0,1350.0)--BGR:(3053.0,1328.0)) new-nn: (BGR->IND) (BUR->IND) (DYS->IND) (EFD->LGB) (IAB->IND)
+ add: (BGR:(3053.0,1328.0)--IND:(3042.0,1318.0)) new-nn: (BGR->MCI) (BUR->MCI) (DYS->MCI) (IAB->MCI) (IND->MCI)
+ add: (IND:(3042.0,1318.0)--MCI:(2998.0,1206.0)) new-nn: (BGR->AUS) (BUR->LGB) (DYS->AUS) (IAB->AUS) (IND->AUS) (MCI->AUS)
+ add: (IND:(3042.0,1318.0)--AUS:(2817.0,1344.0)) new-nn: (AUS->GVT) (BGR->GVT) (DYS->GVT) (IAB->LGB) (IND->GVT) (MCI->GVT)
+ add: (AUS:(2817.0,1344.0)--GVT:(2720.0,1441.0)) new-nn: (AUS->MEM) (BGR->MEM) (DYS->CNW) (GVT->MEM) (IND->MEM) (MCI->MEM)
+ add: (GVT:(2720.0,1441.0)--MEM:(2453.0,1378.0)) new-nn: (AUS->CNW) (BGR->CNW) (GVT->BUF) (IND->CNW) (MCI->CNW) (MEM->IAH)
+ add: (MEM:(2453.0,1378.0)--IAH:(2238.0,1576.0)) new-nn: (IAH->BUF) (MEM->BUF)
+ add: (IAH:(2238.0,1576.0)--BUF:(2401.0,1671.0)) new-nn: (BUF->BLI) (GVT->CNW) (IAH->MCO) (MEM->BOS)
+ add: (IAH:(2238.0,1576.0)--MCO:(2122.0,1395.0)) new-nn: (IAH->ABQ) (MCO->BOS)
+ add: (MCO:(2122.0,1395.0)--BOS:(2165.0,1245.0)) new-nn: (BOS->EWR) (MCO->ABQ) (MEM->ABQ)
+ add: (MCO:(2122.0,1395.0)--ABQ:(1993.0,1494.0)) new-nn: (ABQ->HOU) (IAH->LRF) (MCO->HOU) (MEM->EWR)
+ add: (ABQ:(1993.0,1494.0)--HOU:(1880.0,1641.0)) new-nn: (ABQ->LUF) (HOU->LRF) (MCO->EWR)
+ add: (BUF:(2401.0,1671.0)--BLI:(2521.0,1884.0)) new-nn: (BLI->CNW) (BUF->CNW)
+ add: (BLI:(2521.0,1884.0)--CNW:(2671.0,1842.0)) new-nn: (AUS->EWR) (BGR->LGB) (BLI->LRF) (BUF->LRF) (CNW->GWO) (DYS->LGB) (GVT->LRF) (IND->LGB) (MCI->LGB)
+ add: (BOS:(2165.0,1245.0)--EWR:(2114.0,1003.0)) new-nn: (AUS->LRF) (BOS->BHM) (EWR->BHM) (MCO->LRF) (MEM->LRF)
+ add: (HOU:(1880.0,1641.0)--LRF:(2083.0,1811.0)) new-nn: (AUS->GWO) (BLI->LNA) (BUF->DFW) (GVT->GWO) (HOU->LUF) (IAH->DFW) (LRF->DFW) (MCO->LUF) (MEM->LUF)
+ add: (LRF:(2083.0,1811.0)--DFW:(1969.0,1989.0)) new-nn: (BUF->LNA) (DFW->LNA) (FAT->LNA) (GTF->LNA) (IAH->LUF) (LBB->LNA) (LRF->LNA)
+ add: (DFW:(1969.0,1989.0)--LNA:(2166.0,2173.0)) new-nn: (BLI->GWO) (BUF->GWO) (DFW->EDW) (FAT->GRB) (GTF->GRB) (LBB->GRB) (LNA->EDW) (LRF->LUF)
+ add: (LNA:(2166.0,2173.0)--EDW:(2329.0,2406.0)) new-nn: (DFW->GRB) (EDW->GRB) (LNA->GRB)
+ add: (EDW:(2329.0,2406.0)--GRB:(2311.0,2422.0)) new-nn: (ATL->COS) (BWI->COS) (CBM->GWO) (CHS->GRR) (DFW->LUF) (EDW->GWO) (EYW->GWO) (FAT->GRR) (GRB->GWO) (GTF->GWO) (HMN->COS) (ILM->GWO) (JAN->GWO) (JFK->GWO) (LBB->GRR) (LNA->GWO) (LRD->GWO) (MDT->GWO) (MKE->GWO)
+ add: (HOU:(1880.0,1641.0)--LUF:(1691.0,1389.0)) new-nn: (ABQ->BHM) (DFW->GWO) (HOU->BHM) (IAH->BHM) (LRF->BHM) (LUF->BHM) (MCO->BHM) (MEM->BHM)
+ add: (LUF:(1691.0,1389.0)--BHM:(1690.0,1185.0)) new-nn: (ABQ->GRR) (BHM->GVW) (BOS->GVW) (EWR->GVW) (HOU->GRR) (IAH->GWO) (LRF->GWO) (LUF->GVW) (MCO->GWO) (MEM->GWO)
+ add: (EDW:(2329.0,2406.0)--GWO:(2681.0,2317.0)) new-nn: (AUS->LGB) (BLI->GRR) (BUF->GRR) (CBM->COS) (CNW->LGB) (DAL->LGB) (DEN->INT) (DFW->GRR) (EDW->GRR) (ELP->LGB) (EYW->COS) (GRB->GRR) (GTF->GRR) (GVT->LGB) (GWO->LGB) (IAH->GRR) (ILM->GRR) (JAN->COS) (JFK->GRR) (LAX->INT) (LNA->GRR) (LRD->COS) (LRF->GRR) (MCO->GVW) (MDT->LAS) (MEM->GVW) (MKE->COS)
+ add: (ISP:(3816.0,1556.0)--LGB:(3869.0,1043.0)) new-nn: (AUS->GVW) (BFM->INT) (BGR->GVW) (BUR->GRR) (CNW->GRR) (CVG->INT) (DAL->INT) (DCA->INT) (DET->INT) (DYS->GVW) (EFD->GRR) (ELP->INT) (FTW->INT) (GSB->INT) (GVT->GVW) (GWO->GRR) (HFD->INT) (IAB->GRR) (IND->GVW) (ISP->GVW) (JBR->INT) (LGB->GVW) (LIT->GRR) (MCI->GVW) (MDW->INT) (MIA->INT)
+ add: (MCC:(1130.0,4097.0)--FYV:(1155.0,4666.0)) new-nn: (FYV->COS) (MCC->COS)
+ add: (FYV:(1155.0,4666.0)--COS:(1386.0,4646.0)) new-nn: (ALB->LAS) (ATL->LAS) (BWI->LAS) (CBM->LAS) (COS->LAS) (DAY->LAS) (EYW->LAS) (FYV->LAS) (HMN->GRR) (HUF->LAS) (JAN->LAS) (LRD->LAS) (MCC->LAS) (MKE->LAS)
+ add: (COS:(1386.0,4646.0)--LAS:(1610.0,4886.0)) new-nn: (ACY->INT) (ALB->GRR) (AMA->INT) (ATL->GRR) (BTR->INT) (BWI->GRR) (CBM->GRR) (CLE->INT) (CLT->INT) (COS->GRR) (DAY->INT) (EYW->GRR) (FFO->MCF) (FYV->GRR) (GEG->INT) (HUF->GRR) (JAN->INT) (LAS->MCF) (LOU->MCF) (LRD->INT) (LSV->MCF) (LUK->MCF) (MCC->GRR) (MDT->INT) (MKE->GRR)
+ add: (JAX:(3923.0,4384.0)--INT:(4555.0,4470.0)) new-nn: (ACY->MCF) (AMA->MCF) (AUG->MCF) (BFM->MHR) (BOI->MCF) (BTR->MCF) (CLE->MCF) (CLT->MCF) (CVG->MHR) (DAL->MCF) (DAY->MCF) (DCA->MHR) (DEN->MCF) (DET->MHR) (DUG->MHR) (ELP->MHR) (FMY->MCF) (FOE->MCF) (FTW->MHR) (FXE->MHR) (GEG->MCF) (GLS->MHR) (GSB->MHR) (HFD->MHR) (HPN->MCF) (HRO->MCF) (IAD->MCF) (INT->MCF) (JAN->GRR) (JAX->MCF) (JBR->MHR) (LAX->MHR) (LCK->MCF) (LNK->MCF) (LRD->GRR) (MAF->MHR) (MDT->MCF) (MDW->MHR) (MIA->MHR)
+ add: (INT:(4555.0,4470.0)--MCF:(4545.0,4737.0)) new-nn: (ACY->LGA) (AMA->LGA) (AUG->LGA) (BOI->LGA) (BTR->LGA) (CLE->LGA) (CLT->LGA) (DAL->GRR) (DAY->LGA) (DEN->MHR) (FFO->LGA) (FMY->MHR) (FOE->MHR) (GEG->LGA) (HPN->LGA) (HRO->LGA) (IAD->MHR) (IAG->LGA) (INT->MHR) (JAX->LGA) (LAS->LGA) (LCK->LGA) (LNK->MHR) (LOU->LGA) (LSV->LGA) (LUK->LGA) (MCF->LGA) (MDT->LGA)
+ add: (MCF:(4545.0,4737.0)--LGA:(4556.0,4949.0)) new-nn: (ACY->MHR) (AMA->MHR) (AUG->BNA) (BOI->MHR) (BTR->BNA) (CLE->MHR) (CLT->MHR) (DAY->GRR) (FFO->BNA) (GEG->MHR) (HPN->BNA) (HRO->BNA) (IAG->BNA) (JAX->MHR) (LAS->BNA) (LCK->MHR) (LGA->BNA) (LOU->BNA) (LSV->BNA) (LUK->BNA) (MCF->BNA) (MDT->MHR)
+ add: (MCF:(4545.0,4737.0)--BNA:(4837.0,4663.0)) new-nn: (AUG->MHR) (BNA->MHR) (BTR->MHR) (FFO->MHR) (HPN->MHR) (HRO->MHR) (IAG->MHR) (LAS->MHR) (LGA->FLL) (LOU->MHR) (LSV->MHR) (LUK->MHR) (MCF->FLL)
+ add: (BNA:(4837.0,4663.0)--MHR:(4869.0,4517.0)) new-nn: (ACY->FLL) (AMA->FLL) (AUG->FLL) (BFM->FLL) (BNA->FLL) (BOI->FLL) (BTR->FLL) (CLE->FLL) (CLT->FLL) (CVG->FLL) (DCA->FLL) (DEN->FLL) (DET->FLL) (DUG->FLL) (ELP->FLL) (FFO->FLL) (FMY->FLL) (FOE->FLL) (FTW->FLL) (FXE->FLL) (GEG->FLL) (GLS->FLL) (GSB->FLL) (HFD->FLL) (HPN->FLL) (HRO->FLL) (IAD->FLL) (IAG->FLL) (IKK->FLL) (INT->FLL) (JAX->FLL) (JBR->FLL) (LAS->FLL) (LAX->FLL) (LCK->FLL) (LNK->FLL) (LOU->FLL) (LSV->FLL) (LUK->FLL) (MAF->FLL) (MDT->FLL) (MDW->FLL) (MHR->FLL) (MIA->FLL)
+ add: (BNA:(4837.0,4663.0)--FLL:(4927.0,4787.0)) new-nn: (ACY->GRR) (AMA->GRR) (AUG->GRR) (BFM->GRR) (BNA->GRR) (BOI->GRR) (BTR->GRR) (CLE->GRR) (CLT->GRR) (CVG->GVW) (DCA->GRR) (DEN->GRR) (DET->GRR) (DUG->GRR) (ELP->GRR) (FFO->GRR) (FLL->GRR) (FMY->GRR) (FOE->GRR) (FTW->GVW) (FXE->GRR) (GEG->GRR) (GLS->GRR) (GSB->GRR) (HFD->GRR) (HPN->GRR) (HRO->GRR) (IAD->GRR) (IAG->GRR) (IKK->GRR) (INT->GRR) (JAX->GRR) (JBR->GVW) (LAS->GRR) (LAX->GRR) (LCK->GRR) (LGA->GRR) (LNK->GRR) (LOU->GRR) (LSV->GRR) (LUK->GRR) (MAF->GRR) (MCF->GRR) (MDT->GRR) (MDW->GRR) (MHR->GRR) (MIA->GRR)
+ add: (BHM:(1690.0,1185.0)--GVW:(1028.0,1201.0)) new-nn: (AUS->GRR) (BGR->GRR) (BHM->GRR) (BOS->GRR) (CVG->GRR) (DYS->GRR) (EWR->GRR) (FTW->GRR) (GVT->GRR) (GVW->GRR) (IND->GRR) (ISP->GRR) (JBR->GRR) (LGB->GRR) (LUF->GRR) (MCI->GRR) (MCO->GRR) (MEM->GRR)
+ add: (GVW:(1028.0,1201.0)--GRR:(1003.0,1562.0)) new-nn:
+list-emst: (MKE,LRD) (LRD,JAN) (JAN,EYW) (EYW,BWI) (BWI,CBM) (CBM,ATL) (ATL,HUF) (HUF,HMN) (HMN,CHS) (CHS,FAT) (CHS,LBB) (FAT,ILM) (ILM,JFK) (JAN,CLE) (CLE,AMA) (AMA,CLT) (CLT,ACY) (AMA,MDT) (CLT,GEG) (JFK,GTF) (LRD,DAL) (ACY,BTR) (BTR,DAY) (BTR,LOU) (LOU,LUK) (LUK,FFO) (FFO,LSV) (LSV,IAG) (DAL,DEN) (DEN,FOE) (FOE,LAX) (LAX,ELP) (FOE,IAD) (IAD,FMY) (FMY,LNK) (LNK,LCK) (LCK,AUG) (AUG,JAX) (AUG,HPN) (AUG,HRO) (HRO,BOI) (LAX,FXE) (FXE,DET) (DET,MIA) (MIA,HFD) (HFD,DUG) (DUG,IKK) (IKK,GLS) (GLS,MAF) (DAY,ALB) (ALB,MCC) (DET,BFM) (BFM,DCA) (DCA,GSB) (GSB,MDW) (MDW,FTW) (FTW,JBR) (JBR,CVG) (GSB,ISP) (ISP,LIT) (LIT,EFD) (EFD,IAB) (EFD,BUR) (BUR,DYS) (DYS,BGR) (BGR,IND) (IND,MCI) (IND,AUS) (AUS,GVT) (GVT,MEM) (MEM,IAH) (IAH,BUF) (IAH,MCO) (MCO,BOS) (MCO,ABQ) (ABQ,HOU) (BUF,BLI) (BLI,CNW) (BOS,EWR) (HOU,LRF) (LRF,DFW) (DFW,LNA) (LNA,EDW) (EDW,GRB) (HOU,LUF) (LUF,BHM) (EDW,GWO) (ISP,LGB) (MCC,FYV) (FYV,COS) (COS,LAS) (JAX,INT) (INT,MCF) (MCF,LGA) (MCF,BNA) (BNA,MHR) (BNA,FLL) (BHM,GVW) (GVW,GRR)
+build-emst(GLS): successful
+ new-nn: (GLS->IKK)
+ add: (GLS:(4791.0,3182.0)--IKK:(4994.0,3008.0)) new-nn: (GLS->MAF) (IKK->DUG)
+ add: (IKK:(4994.0,3008.0)--DUG:(4895.0,2791.0)) new-nn: (DUG->HFD) (IKK->HFD)
+ add: (DUG:(4895.0,2791.0)--HFD:(4868.0,2559.0)) new-nn: (DUG->MIA) (HFD->MIA) (IKK->MIA)
+ add: (HFD:(4868.0,2559.0)--MIA:(4770.0,2579.0)) new-nn: (DUG->DET) (HFD->DET) (IKK->DET) (MIA->DET)
+ add: (MIA:(4770.0,2579.0)--DET:(4692.0,2580.0)) new-nn: (DET->FXE) (DUG->FXE) (HFD->FXE) (IKK->MAF) (MIA->FXE)
+ add: (GLS:(4791.0,3182.0)--MAF:(4851.0,3542.0)) new-nn: (GLS->FXE) (IKK->FXE) (MAF->FXE)
+ add: (DET:(4692.0,2580.0)--FXE:(4302.0,2821.0)) new-nn: (DET->BFM) (DUG->BFM) (FXE->LAX) (GLS->LAX) (HFD->BFM) (IKK->BFM) (MAF->INT) (MIA->BFM)
+ add: (FXE:(4302.0,2821.0)--LAX:(3835.0,3033.0)) new-nn: (FXE->BFM) (GLS->FOE) (LAX->FOE)
+ add: (LAX:(3835.0,3033.0)--FOE:(3830.0,3371.0)) new-nn: (FOE->IAD) (GLS->BFM) (LAX->ELP)
+ add: (LAX:(3835.0,3033.0)--ELP:(3567.0,2817.0)) new-nn: (ELP->DEN) (LAX->DEN)
+ add: (FOE:(3830.0,3371.0)--IAD:(3646.0,3734.0)) new-nn: (FOE->DEN) (IAD->FMY)
+ add: (IAD:(3646.0,3734.0)--FMY:(3827.0,3968.0)) new-nn: (FMY->LNK) (IAD->LNK)
+ add: (FMY:(3827.0,3968.0)--LNK:(3811.0,4044.0)) new-nn: (FMY->LCK) (IAD->LCK) (LNK->LCK)
+ add: (LNK:(3811.0,4044.0)--LCK:(3717.0,4167.0)) new-nn: (FMY->AUG) (IAD->BOI) (LCK->AUG) (LNK->AUG)
+ add: (LCK:(3717.0,4167.0)--AUG:(3762.0,4358.0)) new-nn: (AUG->JAX) (FMY->JAX) (LCK->HRO) (LNK->JAX)
+ add: (AUG:(3762.0,4358.0)--JAX:(3923.0,4384.0)) new-nn: (AUG->HPN) (FMY->BOI) (JAX->HPN) (LNK->HRO)
+ add: (AUG:(3762.0,4358.0)--HPN:(3750.0,4523.0)) new-nn: (AUG->HRO) (HPN->HRO) (JAX->HRO)
+ add: (AUG:(3762.0,4358.0)--HRO:(3543.0,4382.0)) new-nn: (AUG->BOI) (HPN->BOI) (HRO->BOI) (JAX->BOI) (LCK->BOI) (LNK->BOI)
+ add: (HRO:(3543.0,4382.0)--BOI:(3382.0,4118.0)) new-nn: (AUG->IAG) (BOI->GEG) (FMY->DEN) (HPN->IAG) (HRO->IAG) (IAD->DEN) (JAX->INT) (LCK->IAG) (LNK->DEN)
+ add: (FOE:(3830.0,3371.0)--DEN:(3357.0,3319.0)) new-nn: (DEN->DAL) (ELP->DAL) (FMY->INT) (FOE->DAL) (IAD->MDT) (LAX->BFM) (LNK->INT)
+ add: (DEN:(3357.0,3319.0)--DAL:(2977.0,2983.0)) new-nn: (DAL->LRD) (DEN->LRD) (ELP->BFM) (FOE->MDT)
+ add: (DAL:(2977.0,2983.0)--LRD:(2652.0,3218.0)) new-nn: (DAL->MKE) (DEN->MDT) (LRD->MKE)
+ add: (LRD:(2652.0,3218.0)--MKE:(2411.0,3035.0)) new-nn: (DAL->GWO) (LRD->JAN) (MKE->JAN)
+ add: (LRD:(2652.0,3218.0)--JAN:(2428.0,3495.0)) new-nn: (JAN->EYW) (LRD->EYW) (MKE->EYW)
+ add: (JAN:(2428.0,3495.0)--EYW:(2260.0,3517.0)) new-nn: (EYW->BWI) (JAN->CLE) (LRD->CLE) (MKE->BWI)
+ add: (EYW:(2260.0,3517.0)--BWI:(1957.0,3449.0)) new-nn: (BWI->CBM) (EYW->CLE) (MKE->GRB)
+ add: (BWI:(1957.0,3449.0)--CBM:(1762.0,3209.0)) new-nn: (BWI->ALB) (CBM->ATL)
+ add: (CBM:(1762.0,3209.0)--ATL:(1438.0,3265.0)) new-nn: (ATL->HUF) (CBM->ILM)
+ add: (ATL:(1438.0,3265.0)--HUF:(1309.0,3317.0)) new-nn: (ATL->HMN) (HUF->HMN)
+ add: (HUF:(1309.0,3317.0)--HMN:(1160.0,3135.0)) new-nn: (ATL->CHS) (HMN->CHS) (HUF->CHS)
+ add: (HMN:(1160.0,3135.0)--CHS:(1343.0,2854.0)) new-nn: (ATL->ILM) (CHS->FAT) (HMN->LBB) (HUF->LBB)
+ add: (CHS:(1343.0,2854.0)--FAT:(1388.0,2745.0)) new-nn: (CHS->LBB) (FAT->LBB)
+ add: (CHS:(1343.0,2854.0)--LBB:(1256.0,2761.0)) new-nn: (CHS->ILM) (FAT->ILM) (HMN->ILM) (HUF->ILM) (LBB->ILM)
+ add: (FAT:(1388.0,2745.0)--ILM:(1626.0,2820.0)) new-nn: (ATL->JFK) (CBM->JFK) (CHS->JFK) (FAT->GTF) (HMN->JFK) (HUF->ALB) (ILM->JFK) (LBB->GTF)
+ add: (ILM:(1626.0,2820.0)--JFK:(1822.0,2788.0)) new-nn: (ATL->ALB) (CBM->ALB) (CHS->GTF) (HMN->ALB) (ILM->GTF) (JFK->GTF)
+ add: (JAN:(2428.0,3495.0)--CLE:(2493.0,3859.0)) new-nn: (CLE->AMA) (EYW->AMA) (JAN->AMA) (LRD->MDT)
+ add: (CLE:(2493.0,3859.0)--AMA:(2628.0,3954.0)) new-nn: (AMA->CLT) (CLE->CLT) (EYW->CLT) (JAN->MDT)
+ add: (AMA:(2628.0,3954.0)--CLT:(2622.0,4041.0)) new-nn: (AMA->ACY) (CLE->ACY) (CLT->ACY) (EYW->ACY)
+ add: (CLT:(2622.0,4041.0)--ACY:(2583.0,4072.0)) new-nn: (ACY->GEG) (AMA->MDT) (CLE->MDT) (CLT->GEG) (EYW->DAY)
+ add: (AMA:(2628.0,3954.0)--MDT:(2850.0,3868.0)) new-nn: (AMA->GEG) (CLE->GEG) (DEN->GEG) (FOE->BFM) (IAD->GEG) (JAN->DAY) (LRD->GRB) (MDT->GEG)
+ add: (CLT:(2622.0,4041.0)--GEG:(2866.0,4145.0)) new-nn: (ACY->BTR) (AMA->BTR) (BOI->IAG) (CLE->BTR) (CLT->BTR) (DEN->GWO) (GEG->FFO) (IAD->IAG) (MDT->BTR)
+ add: (JFK:(1822.0,2788.0)--GTF:(1668.0,2435.0)) new-nn: (CHS->ALB) (FAT->DFW) (GTF->DFW) (ILM->GRB) (JFK->GRB) (LBB->DFW)
+ add: (ACY:(2583.0,4072.0)--BTR:(2214.0,4281.0)) new-nn: (ACY->DAY) (AMA->DAY) (BTR->DAY) (CLE->DAY) (CLT->DAY) (MDT->DAY)
+ add: (BTR:(2214.0,4281.0)--DAY:(2061.0,4129.0)) new-nn: (ACY->LOU) (AMA->LOU) (BTR->LOU) (CLE->LOU) (CLT->LOU) (DAY->ALB) (EYW->ALB) (JAN->ALB) (MDT->FFO)
+ add: (BTR:(2214.0,4281.0)--LOU:(2472.0,4692.0)) new-nn: (ACY->FFO) (AMA->FFO) (BTR->ALB) (CLE->ALB) (CLT->FFO) (LOU->LUK)
+ add: (LOU:(2472.0,4692.0)--LUK:(2867.0,4902.0)) new-nn: (LOU->FFO) (LUK->FFO)
+ add: (LUK:(2867.0,4902.0)--FFO:(2925.0,4721.0)) new-nn: (ACY->IAG) (AMA->IAG) (CLT->IAG) (FFO->LSV) (GEG->IAG) (LOU->LSV) (LUK->LSV) (MDT->IAG)
+ add: (FFO:(2925.0,4721.0)--LSV:(3064.0,4839.0)) new-nn: (FFO->IAG) (LOU->IAG) (LSV->IAG) (LUK->IAG)
+ add: (LSV:(3064.0,4839.0)--IAG:(3129.0,4761.0)) new-nn: (ACY->ALB) (AMA->ALB) (AUG->INT) (BOI->INT) (CLT->ALB) (FFO->LAS) (GEG->ALB) (HPN->INT) (HRO->INT) (IAD->INT) (IAG->MCF) (LCK->INT) (LOU->LAS) (LSV->LAS) (LUK->LAS) (MDT->ALB)
+ add: (DAY:(2061.0,4129.0)--ALB:(1608.0,3867.0)) new-nn: (ACY->LAS) (ALB->MCC) (AMA->LAS) (ATL->MCC) (BTR->LAS) (BWI->MCC) (CBM->GRB) (CHS->GRB) (CLE->LAS) (CLT->LAS) (DAY->COS) (EYW->GRB) (GEG->LAS) (HMN->MCC) (HUF->MCC) (JAN->GRB) (MDT->GRB)
+ add: (ALB:(1608.0,3867.0)--MCC:(1130.0,4097.0)) new-nn: (ALB->COS) (ATL->GRB) (BWI->GRB) (HMN->GRB) (HUF->COS) (MCC->FYV)
+ add: (DET:(4692.0,2580.0)--BFM:(4248.0,2285.0)) new-nn: (BFM->DCA) (DET->DCA) (DUG->MDW) (ELP->GWO) (FOE->INT) (FXE->DCA) (GLS->INT) (HFD->MDW) (IKK->MDW) (LAX->DCA) (MIA->DCA)
+ add: (BFM:(4248.0,2285.0)--DCA:(4232.0,1937.0)) new-nn: (BFM->GSB) (DCA->GSB) (DET->MDW) (FXE->GSB) (LAX->IAB) (MIA->MDW)
+ add: (DCA:(4232.0,1937.0)--GSB:(4315.0,1750.0)) new-nn: (BFM->MDW) (DCA->MDW) (FXE->MDW) (GSB->MDW)
+ add: (GSB:(4315.0,1750.0)--MDW:(4671.0,1746.0)) new-nn: (BFM->ISP) (DCA->ISP) (DET->FTW) (DUG->FTW) (FXE->EFD) (GSB->JBR) (HFD->FTW) (IKK->FTW) (MDW->FTW) (MIA->FTW)
+ add: (MDW:(4671.0,1746.0)--FTW:(4755.0,1557.0)) new-nn: (DET->JBR) (DUG->JBR) (FTW->JBR) (HFD->JBR) (IKK->MHR) (MDW->JBR) (MIA->JBR)
+ add: (FTW:(4755.0,1557.0)--JBR:(4688.0,1509.0)) new-nn: (DET->CVG) (DUG->CVG) (FTW->CVG) (GSB->CVG) (HFD->CVG) (JBR->CVG) (MDW->CVG) (MIA->CVG)
+ add: (JBR:(4688.0,1509.0)--CVG:(4646.0,1425.0)) new-nn: (CVG->ISP) (DET->ISP) (DUG->ISP) (FTW->ISP) (GSB->ISP) (HFD->ISP) (JBR->ISP) (MDW->ISP) (MIA->ISP)
+ add: (GSB:(4315.0,1750.0)--ISP:(3816.0,1556.0)) new-nn: (BFM->EFD) (CVG->LGB) (DCA->LIT) (DET->EFD) (DUG->EFD) (FTW->LGB) (GSB->LIT) (HFD->EFD) (ISP->LIT) (JBR->LGB) (MDW->LIT) (MIA->EFD)
+ add: (ISP:(3816.0,1556.0)--LIT:(3676.0,1619.0)) new-nn: (DCA->EFD) (GSB->EFD) (ISP->EFD) (LIT->EFD) (MDW->EFD)
+ add: (LIT:(3676.0,1619.0)--EFD:(3633.0,1700.0)) new-nn: (BFM->IAB) (DCA->IAB) (DET->IAB) (DUG->INT) (EFD->IAB) (FXE->IAB) (GSB->IAB) (HFD->IAB) (ISP->BUR) (LIT->BUR) (MDW->LGB) (MIA->IAB)
+ add: (EFD:(3633.0,1700.0)--IAB:(3497.0,1767.0)) new-nn: (BFM->BUR) (DCA->BUR) (DET->BUR) (EFD->BUR) (FXE->BUR) (GSB->LGB) (HFD->BUR) (IAB->BUR) (LAX->GWO) (MIA->BUR)
+ add: (EFD:(3633.0,1700.0)--BUR:(3491.0,1577.0)) new-nn: (BFM->LGB) (BUR->DYS) (DCA->LGB) (DET->LGB) (EFD->DYS) (FXE->INT) (HFD->LGB) (IAB->DYS) (ISP->LGB) (LIT->DYS) (MIA->LGB)
+ add: (BUR:(3491.0,1577.0)--DYS:(3198.0,1350.0)) new-nn: (BUR->BGR) (DYS->BGR) (EFD->BGR) (IAB->BGR) (LIT->LGB)
+ add: (DYS:(3198.0,1350.0)--BGR:(3053.0,1328.0)) new-nn: (BGR->IND) (BUR->IND) (DYS->IND) (EFD->LGB) (IAB->IND)
+ add: (BGR:(3053.0,1328.0)--IND:(3042.0,1318.0)) new-nn: (BGR->MCI) (BUR->MCI) (DYS->MCI) (IAB->MCI) (IND->MCI)
+ add: (IND:(3042.0,1318.0)--MCI:(2998.0,1206.0)) new-nn: (BGR->AUS) (BUR->LGB) (DYS->AUS) (IAB->AUS) (IND->AUS) (MCI->AUS)
+ add: (IND:(3042.0,1318.0)--AUS:(2817.0,1344.0)) new-nn: (AUS->GVT) (BGR->GVT) (DYS->GVT) (IAB->LGB) (IND->GVT) (MCI->GVT)
+ add: (AUS:(2817.0,1344.0)--GVT:(2720.0,1441.0)) new-nn: (AUS->MEM) (BGR->MEM) (DYS->CNW) (GVT->MEM) (IND->MEM) (MCI->MEM)
+ add: (GVT:(2720.0,1441.0)--MEM:(2453.0,1378.0)) new-nn: (AUS->CNW) (BGR->CNW) (GVT->BUF) (IND->CNW) (MCI->CNW) (MEM->IAH)
+ add: (MEM:(2453.0,1378.0)--IAH:(2238.0,1576.0)) new-nn: (IAH->BUF) (MEM->BUF)
+ add: (IAH:(2238.0,1576.0)--BUF:(2401.0,1671.0)) new-nn: (BUF->BLI) (GVT->CNW) (IAH->MCO) (MEM->BOS)
+ add: (IAH:(2238.0,1576.0)--MCO:(2122.0,1395.0)) new-nn: (IAH->ABQ) (MCO->BOS)
+ add: (MCO:(2122.0,1395.0)--BOS:(2165.0,1245.0)) new-nn: (BOS->EWR) (MCO->ABQ) (MEM->ABQ)
+ add: (MCO:(2122.0,1395.0)--ABQ:(1993.0,1494.0)) new-nn: (ABQ->HOU) (IAH->LRF) (MCO->HOU) (MEM->EWR)
+ add: (ABQ:(1993.0,1494.0)--HOU:(1880.0,1641.0)) new-nn: (ABQ->LUF) (HOU->LRF) (MCO->EWR)
+ add: (BUF:(2401.0,1671.0)--BLI:(2521.0,1884.0)) new-nn: (BLI->CNW) (BUF->CNW)
+ add: (BLI:(2521.0,1884.0)--CNW:(2671.0,1842.0)) new-nn: (AUS->EWR) (BGR->LGB) (BLI->LRF) (BUF->LRF) (CNW->GWO) (DYS->LGB) (GVT->LRF) (IND->LGB) (MCI->LGB)
+ add: (BOS:(2165.0,1245.0)--EWR:(2114.0,1003.0)) new-nn: (AUS->LRF) (BOS->BHM) (EWR->BHM) (MCO->LRF) (MEM->LRF)
+ add: (HOU:(1880.0,1641.0)--LRF:(2083.0,1811.0)) new-nn: (AUS->GWO) (BLI->LNA) (BUF->DFW) (GVT->GWO) (HOU->LUF) (IAH->DFW) (LRF->DFW) (MCO->LUF) (MEM->LUF)
+ add: (LRF:(2083.0,1811.0)--DFW:(1969.0,1989.0)) new-nn: (BUF->LNA) (DFW->LNA) (FAT->LNA) (GTF->LNA) (IAH->LUF) (LBB->LNA) (LRF->LNA)
+ add: (DFW:(1969.0,1989.0)--LNA:(2166.0,2173.0)) new-nn: (BLI->GWO) (BUF->GWO) (DFW->EDW) (FAT->GRB) (GTF->GRB) (LBB->GRB) (LNA->EDW) (LRF->LUF)
+ add: (LNA:(2166.0,2173.0)--EDW:(2329.0,2406.0)) new-nn: (DFW->GRB) (EDW->GRB) (LNA->GRB)
+ add: (EDW:(2329.0,2406.0)--GRB:(2311.0,2422.0)) new-nn: (ATL->COS) (BWI->COS) (CBM->GWO) (CHS->GRR) (DFW->LUF) (EDW->GWO) (EYW->GWO) (FAT->GRR) (GRB->GWO) (GTF->GWO) (HMN->COS) (ILM->GWO) (JAN->GWO) (JFK->GWO) (LBB->GRR) (LNA->GWO) (LRD->GWO) (MDT->GWO) (MKE->GWO)
+ add: (HOU:(1880.0,1641.0)--LUF:(1691.0,1389.0)) new-nn: (ABQ->BHM) (DFW->GWO) (HOU->BHM) (IAH->BHM) (LRF->BHM) (LUF->BHM) (MCO->BHM) (MEM->BHM)
+ add: (LUF:(1691.0,1389.0)--BHM:(1690.0,1185.0)) new-nn: (ABQ->GRR) (BHM->GVW) (BOS->GVW) (EWR->GVW) (HOU->GRR) (IAH->GWO) (LRF->GWO) (LUF->GVW) (MCO->GWO) (MEM->GWO)
+ add: (EDW:(2329.0,2406.0)--GWO:(2681.0,2317.0)) new-nn: (AUS->LGB) (BLI->GRR) (BUF->GRR) (CBM->COS) (CNW->LGB) (DAL->LGB) (DEN->INT) (DFW->GRR) (EDW->GRR) (ELP->LGB) (EYW->COS) (GRB->GRR) (GTF->GRR) (GVT->LGB) (GWO->LGB) (IAH->GRR) (ILM->GRR) (JAN->COS) (JFK->GRR) (LAX->INT) (LNA->GRR) (LRD->COS) (LRF->GRR) (MCO->GVW) (MDT->LAS) (MEM->GVW) (MKE->COS)
+ add: (ISP:(3816.0,1556.0)--LGB:(3869.0,1043.0)) new-nn: (AUS->GVW) (BFM->INT) (BGR->GVW) (BUR->GRR) (CNW->GRR) (CVG->INT) (DAL->INT) (DCA->INT) (DET->INT) (DYS->GVW) (EFD->GRR) (ELP->INT) (FTW->INT) (GSB->INT) (GVT->GVW) (GWO->GRR) (HFD->INT) (IAB->GRR) (IND->GVW) (ISP->GVW) (JBR->INT) (LGB->GVW) (LIT->GRR) (MCI->GVW) (MDW->INT) (MIA->INT)
+ add: (MCC:(1130.0,4097.0)--FYV:(1155.0,4666.0)) new-nn: (FYV->COS) (MCC->COS)
+ add: (FYV:(1155.0,4666.0)--COS:(1386.0,4646.0)) new-nn: (ALB->LAS) (ATL->LAS) (BWI->LAS) (CBM->LAS) (COS->LAS) (DAY->LAS) (EYW->LAS) (FYV->LAS) (HMN->GRR) (HUF->LAS) (JAN->LAS) (LRD->LAS) (MCC->LAS) (MKE->LAS)
+ add: (COS:(1386.0,4646.0)--LAS:(1610.0,4886.0)) new-nn: (ACY->INT) (ALB->GRR) (AMA->INT) (ATL->GRR) (BTR->INT) (BWI->GRR) (CBM->GRR) (CLE->INT) (CLT->INT) (COS->GRR) (DAY->INT) (EYW->GRR) (FFO->MCF) (FYV->GRR) (GEG->INT) (HUF->GRR) (JAN->INT) (LAS->MCF) (LOU->MCF) (LRD->INT) (LSV->MCF) (LUK->MCF) (MCC->GRR) (MDT->INT) (MKE->GRR)
+ add: (JAX:(3923.0,4384.0)--INT:(4555.0,4470.0)) new-nn: (ACY->MCF) (AMA->MCF) (AUG->MCF) (BFM->MHR) (BOI->MCF) (BTR->MCF) (CLE->MCF) (CLT->MCF) (CVG->MHR) (DAL->MCF) (DAY->MCF) (DCA->MHR) (DEN->MCF) (DET->MHR) (DUG->MHR) (ELP->MHR) (FMY->MCF) (FOE->MCF) (FTW->MHR) (FXE->MHR) (GEG->MCF) (GLS->MHR) (GSB->MHR) (HFD->MHR) (HPN->MCF) (HRO->MCF) (IAD->MCF) (INT->MCF) (JAN->GRR) (JAX->MCF) (JBR->MHR) (LAX->MHR) (LCK->MCF) (LNK->MCF) (LRD->GRR) (MAF->MHR) (MDT->MCF) (MDW->MHR) (MIA->MHR)
+ add: (INT:(4555.0,4470.0)--MCF:(4545.0,4737.0)) new-nn: (ACY->LGA) (AMA->LGA) (AUG->LGA) (BOI->LGA) (BTR->LGA) (CLE->LGA) (CLT->LGA) (DAL->GRR) (DAY->LGA) (DEN->MHR) (FFO->LGA) (FMY->MHR) (FOE->MHR) (GEG->LGA) (HPN->LGA) (HRO->LGA) (IAD->MHR) (IAG->LGA) (INT->MHR) (JAX->LGA) (LAS->LGA) (LCK->LGA) (LNK->MHR) (LOU->LGA) (LSV->LGA) (LUK->LGA) (MCF->LGA) (MDT->LGA)
+ add: (MCF:(4545.0,4737.0)--LGA:(4556.0,4949.0)) new-nn: (ACY->MHR) (AMA->MHR) (AUG->BNA) (BOI->MHR) (BTR->BNA) (CLE->MHR) (CLT->MHR) (DAY->GRR) (FFO->BNA) (GEG->MHR) (HPN->BNA) (HRO->BNA) (IAG->BNA) (JAX->MHR) (LAS->BNA) (LCK->MHR) (LGA->BNA) (LOU->BNA) (LSV->BNA) (LUK->BNA) (MCF->BNA) (MDT->MHR)
+ add: (MCF:(4545.0,4737.0)--BNA:(4837.0,4663.0)) new-nn: (AUG->MHR) (BNA->MHR) (BTR->MHR) (FFO->MHR) (HPN->MHR) (HRO->MHR) (IAG->MHR) (LAS->MHR) (LGA->FLL) (LOU->MHR) (LSV->MHR) (LUK->MHR) (MCF->FLL)
+ add: (BNA:(4837.0,4663.0)--MHR:(4869.0,4517.0)) new-nn: (ACY->FLL) (AMA->FLL) (AUG->FLL) (BFM->FLL) (BNA->FLL) (BOI->FLL) (BTR->FLL) (CLE->FLL) (CLT->FLL) (CVG->FLL) (DCA->FLL) (DEN->FLL) (DET->FLL) (DUG->FLL) (ELP->FLL) (FFO->FLL) (FMY->FLL) (FOE->FLL) (FTW->FLL) (FXE->FLL) (GEG->FLL) (GLS->FLL) (GSB->FLL) (HFD->FLL) (HPN->FLL) (HRO->FLL) (IAD->FLL) (IAG->FLL) (IKK->FLL) (INT->FLL) (JAX->FLL) (JBR->FLL) (LAS->FLL) (LAX->FLL) (LCK->FLL) (LNK->FLL) (LOU->FLL) (LSV->FLL) (LUK->FLL) (MAF->FLL) (MDT->FLL) (MDW->FLL) (MHR->FLL) (MIA->FLL)
+ add: (BNA:(4837.0,4663.0)--FLL:(4927.0,4787.0)) new-nn: (ACY->GRR) (AMA->GRR) (AUG->GRR) (BFM->GRR) (BNA->GRR) (BOI->GRR) (BTR->GRR) (CLE->GRR) (CLT->GRR) (CVG->GVW) (DCA->GRR) (DEN->GRR) (DET->GRR) (DUG->GRR) (ELP->GRR) (FFO->GRR) (FLL->GRR) (FMY->GRR) (FOE->GRR) (FTW->GVW) (FXE->GRR) (GEG->GRR) (GLS->GRR) (GSB->GRR) (HFD->GRR) (HPN->GRR) (HRO->GRR) (IAD->GRR) (IAG->GRR) (IKK->GRR) (INT->GRR) (JAX->GRR) (JBR->GVW) (LAS->GRR) (LAX->GRR) (LCK->GRR) (LGA->GRR) (LNK->GRR) (LOU->GRR) (LSV->GRR) (LUK->GRR) (MAF->GRR) (MCF->GRR) (MDT->GRR) (MDW->GRR) (MHR->GRR) (MIA->GRR)
+ add: (BHM:(1690.0,1185.0)--GVW:(1028.0,1201.0)) new-nn: (AUS->GRR) (BGR->GRR) (BHM->GRR) (BOS->GRR) (CVG->GRR) (DYS->GRR) (EWR->GRR) (FTW->GRR) (GVT->GRR) (GVW->GRR) (IND->GRR) (ISP->GRR) (JBR->GRR) (LGB->GRR) (LUF->GRR) (MCI->GRR) (MCO->GRR) (MEM->GRR)
+ add: (GVW:(1028.0,1201.0)--GRR:(1003.0,1562.0)) new-nn:
+list-emst: (GLS,IKK) (IKK,DUG) (DUG,HFD) (HFD,MIA) (MIA,DET) (GLS,MAF) (DET,FXE) (FXE,LAX) (LAX,FOE) (LAX,ELP) (FOE,IAD) (IAD,FMY) (FMY,LNK) (LNK,LCK) (LCK,AUG) (AUG,JAX) (AUG,HPN) (AUG,HRO) (HRO,BOI) (FOE,DEN) (DEN,DAL) (DAL,LRD) (LRD,MKE) (LRD,JAN) (JAN,EYW) (EYW,BWI) (BWI,CBM) (CBM,ATL) (ATL,HUF) (HUF,HMN) (HMN,CHS) (CHS,FAT) (CHS,LBB) (FAT,ILM) (ILM,JFK) (JAN,CLE) (CLE,AMA) (AMA,CLT) (CLT,ACY) (AMA,MDT) (CLT,GEG) (JFK,GTF) (ACY,BTR) (BTR,DAY) (BTR,LOU) (LOU,LUK) (LUK,FFO) (FFO,LSV) (LSV,IAG) (DAY,ALB) (ALB,MCC) (DET,BFM) (BFM,DCA) (DCA,GSB) (GSB,MDW) (MDW,FTW) (FTW,JBR) (JBR,CVG) (GSB,ISP) (ISP,LIT) (LIT,EFD) (EFD,IAB) (EFD,BUR) (BUR,DYS) (DYS,BGR) (BGR,IND) (IND,MCI) (IND,AUS) (AUS,GVT) (GVT,MEM) (MEM,IAH) (IAH,BUF) (IAH,MCO) (MCO,BOS) (MCO,ABQ) (ABQ,HOU) (BUF,BLI) (BLI,CNW) (BOS,EWR) (HOU,LRF) (LRF,DFW) (DFW,LNA) (LNA,EDW) (EDW,GRB) (HOU,LUF) (LUF,BHM) (EDW,GWO) (ISP,LGB) (MCC,FYV) (FYV,COS) (COS,LAS) (JAX,INT) (INT,MCF) (MCF,LGA) (MCF,BNA) (BNA,MHR) (BNA,FLL) (BHM,GVW) (GVW,GRR)

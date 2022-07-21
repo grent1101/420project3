@@ -1,0 +1,38 @@
+comment:This uses a non-square bounding box and involves around 30 points.
+initialize:0:800:0:500
+add-point:ACY:ATLANTIC CITY:559:312
+add-point:ALB:ALBANY:563:362
+add-point:AMA:AMARILLO:291:220
+add-point:ATL:ATLANTA:462:189
+add-point:AUG:AUGUSTA:606:412
+add-point:AUS:AUSTIN:327:126
+add-point:BFM:MOBILE:412:128
+add-point:BGR:BANGOR:614:409
+add-point:BHM:BIRMINGHAM:438:193
+add-point:BLI:BELLINGHAM:82:492
+add-point:BNA:NASHVILLE:439:257
+add-point:BOI:BOISE:142:396
+add-point:BOS:BOSTON:583:374
+add-point:BTR:BATON ROUGE:391:119
+add-point:BUF:BUFFALO:518:371
+add-point:BUR:BURBANK:122:217
+add-point:BWI:BALTIMORE:538:301
+add-point:CBM:COLOMBUS:421:196
+add-point:CHS:CHARLESTON:493:160
+add-point:CLE:CLEVELAND:488:343
+add-point:CLT:CHARLOTTE:495:228
+add-point:CNW:WACO:331:154
+add-point:COS:COLORADO SPRINGS:260:297
+add-point:CVG:CINCINNATI:456:305
+add-point:DAL:DALLAS:342:164
+add-point:DAY:DAYTON:457:302
+add-point:DCA:WASHINGTON:525:296
+add-point:DEN:DENVER:256:313
+add-point:DET:DETROIT:464:364
+add-point:DFW:DALLAS-FORT WORTH:332:168
+build-emst:ACY
+list-emst
+build-emst:BOS
+list-emst
+build-emst:DFW
+list-emst

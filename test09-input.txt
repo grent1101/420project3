@@ -1,0 +1,7 @@
+comment:This involves a non-square bounding box and builds a few trees involving around 200 points.
+initialize:10000:99999:10000:99999
+add-point:FTW:FORT WORTH:41438:70571
+add-point:MNM:MACON:47608:76982
+add-point:MPV:MONTPELIER:41051:71566
+add-point:FMY:FORT MYERS:44476:78445
+build-emst:FTW

@@ -1,0 +1,102 @@
+[Tests add-point, clear, size, build-emst, and list-emst]
+initialize: bounding-box = [(0.0,0.0),(100.0,100.0)]
+add-point(SEA): successful {Seattle, (51.0,52.0)}
+add-point(IAD): successful {Dulles, (32.0,41.0)}
+add-point(DCA): successful {Washington, (65.0,68.0)}
+add-point(DFW): successful {Dallas-Fort Worth, (30.0,84.0)}
+add-point(ORD): successful {Chicago, (18.0,58.0)}
+add-point(SFO): successful {San Francisco, (12.0,88.0)}
+size: 6
+build-emst(DCA): successful
+ new-nn: (DCA->SEA)
+ add: (DCA:(65.0,68.0)--SEA:(51.0,52.0)) new-nn: (DCA->DFW) (SEA->IAD)
+ add: (SEA:(51.0,52.0)--IAD:(32.0,41.0)) new-nn: (IAD->ORD) (SEA->ORD)
+ add: (IAD:(32.0,41.0)--ORD:(18.0,58.0)) new-nn: (IAD->DFW) (ORD->DFW) (SEA->DFW)
+ add: (ORD:(18.0,58.0)--DFW:(30.0,84.0)) new-nn: (DCA->SFO) (DFW->SFO) (IAD->SFO) (ORD->SFO) (SEA->SFO)
+ add: (DFW:(30.0,84.0)--SFO:(12.0,88.0)) new-nn:
+list-emst: (DCA,SEA) (SEA,IAD) (IAD,ORD) (ORD,DFW) (DFW,SFO)
+add-point(ATL): successful {Atlanta, (95.0,51.0)}
+add-point(BWI): successful {Baltimore, (80.0,85.0)}
+add-point(JFK): successful {New York, (92.0,29.0)}
+add-point(DEN): successful {Denver, (74.0,12.0)}
+build-emst(ATL): successful
+ new-nn: (ATL->JFK)
+ add: (ATL:(95.0,51.0)--JFK:(92.0,29.0)) new-nn: (ATL->DCA) (JFK->DEN)
+ add: (JFK:(92.0,29.0)--DEN:(74.0,12.0)) new-nn: (DEN->SEA) (JFK->SEA)
+ add: (ATL:(95.0,51.0)--DCA:(65.0,68.0)) new-nn: (ATL->BWI) (DCA->SEA)
+ add: (DCA:(65.0,68.0)--SEA:(51.0,52.0)) new-nn: (DCA->BWI) (DEN->IAD) (JFK->BWI) (SEA->IAD)
+ add: (SEA:(51.0,52.0)--IAD:(32.0,41.0)) new-nn: (DEN->ORD) (IAD->ORD) (SEA->ORD)
+ add: (IAD:(32.0,41.0)--ORD:(18.0,58.0)) new-nn: (DEN->BWI) (IAD->DFW) (ORD->DFW) (SEA->DFW)
+ add: (DCA:(65.0,68.0)--BWI:(80.0,85.0)) new-nn: (ATL->DFW) (BWI->DFW) (DCA->DFW) (DEN->DFW) (JFK->DFW)
+ add: (ORD:(18.0,58.0)--DFW:(30.0,84.0)) new-nn: (ATL->SFO) (BWI->SFO) (DCA->SFO) (DEN->SFO) (DFW->SFO) (IAD->SFO) (JFK->SFO) (ORD->SFO) (SEA->SFO)
+ add: (DFW:(30.0,84.0)--SFO:(12.0,88.0)) new-nn:
+list-emst: (ATL,JFK) (JFK,DEN) (ATL,DCA) (DCA,SEA) (SEA,IAD) (IAD,ORD) (DCA,BWI) (ORD,DFW) (DFW,SFO)
+add-point(CLT): successful {Charlotte, (69.0,44.0)}
+add-point(LAS): successful {Las Vegas, (17.0,38.0)}
+add-point(PHX): successful {Phoenix, (72.0,95.0)}
+add-point(MCO): successful {Orlando, (52.0,23.0)}
+add-point(IAH): successful {Houston, (73.0,71.0)}
+build-emst(SEA): successful
+ new-nn: (SEA->CLT)
+ add: (SEA:(51.0,52.0)--CLT:(69.0,44.0)) new-nn: (CLT->DCA) (SEA->DCA)
+ add: (SEA:(51.0,52.0)--DCA:(65.0,68.0)) new-nn: (CLT->ATL) (DCA->IAH) (SEA->IAD)
+ add: (DCA:(65.0,68.0)--IAH:(73.0,71.0)) new-nn: (DCA->BWI) (IAH->BWI)
+ add: (IAH:(73.0,71.0)--BWI:(80.0,85.0)) new-nn: (BWI->PHX) (DCA->PHX) (IAH->PHX)
+ add: (BWI:(80.0,85.0)--PHX:(72.0,95.0)) new-nn: (BWI->ATL) (DCA->ATL) (IAH->ATL) (PHX->DFW)
+ add: (SEA:(51.0,52.0)--IAD:(32.0,41.0)) new-nn: (IAD->LAS) (SEA->MCO)
+ add: (IAD:(32.0,41.0)--LAS:(17.0,38.0)) new-nn: (IAD->ORD) (LAS->ORD)
+ add: (LAS:(17.0,38.0)--ORD:(18.0,58.0)) new-nn: (IAD->MCO) (LAS->MCO) (ORD->DFW)
+ add: (IAD:(32.0,41.0)--MCO:(52.0,23.0)) new-nn: (IAD->DFW) (LAS->DFW) (MCO->DEN) (SEA->DFW)
+ add: (MCO:(52.0,23.0)--DEN:(74.0,12.0)) new-nn: (DEN->JFK) (MCO->JFK)
+ add: (DEN:(74.0,12.0)--JFK:(92.0,29.0)) new-nn: (DEN->ATL) (JFK->ATL) (MCO->ATL)
+ add: (JFK:(92.0,29.0)--ATL:(95.0,51.0)) new-nn: (ATL->DFW) (BWI->DFW) (CLT->DFW) (DCA->DFW) (DEN->DFW) (IAH->DFW) (JFK->DFW) (MCO->DFW)
+ add: (ORD:(18.0,58.0)--DFW:(30.0,84.0)) new-nn: (ATL->SFO) (BWI->SFO) (CLT->SFO) (DCA->SFO) (DEN->SFO) (DFW->SFO) (IAD->SFO) (IAH->SFO) (JFK->SFO) (LAS->SFO) (MCO->SFO) (ORD->SFO) (PHX->SFO) (SEA->SFO)
+ add: (DFW:(30.0,84.0)--SFO:(12.0,88.0)) new-nn:
+list-emst: (SEA,CLT) (SEA,DCA) (DCA,IAH) (IAH,BWI) (BWI,PHX) (SEA,IAD) (IAD,LAS) (LAS,ORD) (IAD,MCO) (MCO,DEN) (DEN,JFK) (JFK,ATL) (ORD,DFW) (DFW,SFO)
+build-emst(IAH): successful
+ new-nn: (IAH->DCA)
+ add: (IAH:(73.0,71.0)--DCA:(65.0,68.0)) new-nn: (DCA->SEA) (IAH->BWI)
+ add: (IAH:(73.0,71.0)--BWI:(80.0,85.0)) new-nn: (BWI->PHX) (IAH->PHX)
+ add: (BWI:(80.0,85.0)--PHX:(72.0,95.0)) new-nn: (BWI->ATL) (IAH->CLT) (PHX->DFW)
+ add: (DCA:(65.0,68.0)--SEA:(51.0,52.0)) new-nn: (DCA->CLT) (SEA->CLT)
+ add: (SEA:(51.0,52.0)--CLT:(69.0,44.0)) new-nn: (CLT->ATL) (DCA->ATL) (IAH->ATL) (SEA->IAD)
+ add: (SEA:(51.0,52.0)--IAD:(32.0,41.0)) new-nn: (IAD->LAS) (SEA->MCO)
+ add: (IAD:(32.0,41.0)--LAS:(17.0,38.0)) new-nn: (IAD->ORD) (LAS->ORD)
+ add: (LAS:(17.0,38.0)--ORD:(18.0,58.0)) new-nn: (IAD->MCO) (LAS->MCO) (ORD->DFW)
+ add: (IAD:(32.0,41.0)--MCO:(52.0,23.0)) new-nn: (IAD->DFW) (LAS->DFW) (MCO->DEN) (SEA->DFW)
+ add: (MCO:(52.0,23.0)--DEN:(74.0,12.0)) new-nn: (DEN->JFK) (MCO->JFK)
+ add: (DEN:(74.0,12.0)--JFK:(92.0,29.0)) new-nn: (DEN->ATL) (JFK->ATL) (MCO->ATL)
+ add: (JFK:(92.0,29.0)--ATL:(95.0,51.0)) new-nn: (ATL->DFW) (BWI->DFW) (CLT->DFW) (DCA->DFW) (DEN->DFW) (IAH->DFW) (JFK->DFW) (MCO->DFW)
+ add: (ORD:(18.0,58.0)--DFW:(30.0,84.0)) new-nn: (ATL->SFO) (BWI->SFO) (CLT->SFO) (DCA->SFO) (DEN->SFO) (DFW->SFO) (IAD->SFO) (IAH->SFO) (JFK->SFO) (LAS->SFO) (MCO->SFO) (ORD->SFO) (PHX->SFO) (SEA->SFO)
+ add: (DFW:(30.0,84.0)--SFO:(12.0,88.0)) new-nn:
+list-emst: (IAH,DCA) (IAH,BWI) (BWI,PHX) (DCA,SEA) (SEA,CLT) (SEA,IAD) (IAD,LAS) (LAS,ORD) (IAD,MCO) (MCO,DEN) (DEN,JFK) (JFK,ATL) (ORD,DFW) (DFW,SFO)
+clear: successful
+add-point(SEA): successful {Seattle, (51.0,52.0)}
+add-point(DCA): successful {Washington, (65.0,68.0)}
+add-point(IAD): successful {Dulles, (32.0,41.0)}
+add-point(DFW): successful {Dallas-Fort Worth, (30.0,84.0)}
+add-point(ORD): successful {Chicago, (18.0,58.0)}
+[Adding a duplicate point (not detected)]
+add-point(DUP): successful {Duplicate City, (65.0,68.0)}
+add-point(CLT): successful {Charlotte, (69.0,44.0)}
+add-point(LAS): successful {Las Vegas, (17.0,38.0)}
+add-point(PHX): successful {Phoenix, (72.0,95.0)}
+[Duplicate point will be detected here]
+build-emst(SEA): failure due to exception: "Attempt to insert a duplicate point"
+[The EMST should be empty due to the error]
+list-emst:
+clear: successful
+add-point(DCA): successful {Washington, (65.0,68.0)}
+build-emst(DCA): successful
+list-emst:
+add-point(IAD): successful {Dulles, (32.0,41.0)}
+build-emst(IAD): successful
+ new-nn: (IAD->DCA)
+ add: (IAD:(32.0,41.0)--DCA:(65.0,68.0)) new-nn:
+list-emst: (IAD,DCA)
+add-point(DFW): successful {Dallas-Fort Worth, (30.0,84.0)}
+build-emst(DFW): successful
+ new-nn: (DFW->DCA)
+ add: (DFW:(30.0,84.0)--DCA:(65.0,68.0)) new-nn: (DCA->IAD) (DFW->IAD)
+ add: (DCA:(65.0,68.0)--IAD:(32.0,41.0)) new-nn:
+list-emst: (DFW,DCA) (DCA,IAD)

@@ -1,0 +1,18 @@
+[Tests add-point and build-emst]
+initialize: bounding-box = [(0.0,0.0),(100.0,100.0)]
+add-point(SEA): successful {Seattle, (51.0,53.0)}
+add-point(IAD): successful {Dulles, (32.0,41.0)}
+add-point(DCA): successful {Washington, (65.0,68.0)}
+add-point(DFW): successful {Dallas-Fort Worth, (30.0,84.0)}
+add-point(ORD): successful {Chicago, (19.0,58.0)}
+add-point(SFO): successful {San Francisco, (12.0,88.0)}
+add-point(ATL): successful {Atlanta, (5.0,51.0)}
+[Builds an EMST starting from SFO]
+build-emst(SFO): successful
+ new-nn: (SFO->DFW)
+ add: (SFO:(12.0,88.0)--DFW:(30.0,84.0)) new-nn: (DFW->ORD) (SFO->ORD)
+ add: (DFW:(30.0,84.0)--ORD:(19.0,58.0)) new-nn: (DFW->SEA) (ORD->ATL) (SFO->ATL)
+ add: (ORD:(19.0,58.0)--ATL:(5.0,51.0)) new-nn: (ATL->IAD) (ORD->IAD) (SFO->IAD)
+ add: (ORD:(19.0,58.0)--IAD:(32.0,41.0)) new-nn: (ATL->SEA) (IAD->SEA) (ORD->SEA) (SFO->SEA)
+ add: (IAD:(32.0,41.0)--SEA:(51.0,53.0)) new-nn: (ATL->DCA) (DFW->DCA) (IAD->DCA) (ORD->DCA) (SEA->DCA) (SFO->DCA)
+ add: (SEA:(51.0,53.0)--DCA:(65.0,68.0)) new-nn:
